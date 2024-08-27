@@ -35,103 +35,103 @@ Improving what's needed… missing elements & attributes, svg filters…
 ****
 ## Details
 
-|`1`         |`Folder / Clip name`|`Description`|`Trigger`|
+|`#`         | | `Folder / Clip name`|`Description`|`Trigger`|
 |---|---|---|--:|
-| ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | | |
-| → | **svg file - minimal** | Required attributes svg file | `ve-minifile ⇥` |
-| → | **svg file - full** | Full Attributes svg file | `ve-fullfile ⇥` |
-| → | **inline svg - minimal** | Required attribute inline svg | `ve-mininline ⇥` |
-| → | **inline svg - full** | Full attributes inline svg | `ve-minifull ⇥` |
-| → | **svg 24x24** |  | `ve-24 ⇥` |
-| → | **svg 32x32** |  | `ve-32 ⇥` |
-| → | **svg 64x64** |  | `ve-64 ⇥` |
-| → | **svg 128x128** |  | `ve-128 ⇥` |
-| → | **svg 512x512** |  | `ve-512 ⇥` |
-| → | **svg xmlns** |  | `va-xmlns ⇥` |
-| → | **svg xlink** |  | `va-xlink ⇥` |
-| → | **view** |  | `ve-view ⇥` |
-| → | **defs** |  | `ve-defs ⇥` |
-| → | **group** |  | `ve-grop ⇥` |
-| → | **symbol** |  | `ve-symb ⇥` |
-| → | **use symbol** |  | `ve-ussy ⇥` |
-| → | **use element** |  | `ve-usel ⇥` |
-| → | **description** |  | `ve-desc ⇥` |
-| → | **title** | For accessibility | `ve-titl ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt2.svg) |  **SHAPES**  | | |
-| → | **circle** |  | `ve-circ ⇥` |
-| → | **ellipse** |  | `ve-elli ⇥` |
-| → | **rect** |  | `ve-rect ⇥` |
-| → | **round rect** |  | `ve-recr ⇥` |
-| → | **polygon** |  | `ve-polg ⇥` |
-| → | **line** |  | `ve-line ⇥` |
-| → | **polyline** |  | `ve-poli ⇥` |
-| → | **path** |  | `ve-path ⇥` |
-| → | **text minimal** |  | `ve-txtm ⇥` |
-| → | **text full** |  | `ve-txtf ⇥` |
-| → | **text path** |  | `ve-txtp ⇥` |
-| → | **tspan** |  | `ve-tspn ⇥` |
-| → | **image** |  | `ve-imag ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt3.svg) |  **STYLING**  | | |
-| → | **fill** |  | `va-fill ⇥` |
-| → | **stroke** |  | `va-strk ⇥` |
-| → | **stroke-width** |  | `va-strk-wdth ⇥` |
-| → | **fill-opacity** |  | `va-fill-opac ⇥` |
-| → | **fill-rule** |  | `va-fill-rule ⇥` |
-| → | **stroke-opacity** |  | `va-strk-opac ⇥` |
-| → | **stroke-linecap** |  | `va-strk-linc ⇥` |
-| → | **stroke-linejoin** |  | `va-strk-linj ⇥` |
-| → | **stroke-dasharray** |  | `va-strk-darr ⇥` |
-| → | **stroke-dashoffset** |  | `va-strk-doff ⇥` |
-| → | **pathLength** |  | `va-path-leng ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt4.svg) |  **ADVANCED**  | | |
-| → | **linear gradient** |  | `ve-lgrd ⇥` |
-| → | **radial gradient** |  | `ve-rgrd ⇥` |
-| → | **stop** |  | `ve-stop ⇥` |
-| → | **gradient units** |  | `va-grad-unit ⇥` |
-| → | **gradient transform** |  | `va-grad-tran ⇥` |
-| → | **fill with gradient** |  | `va-fill-grad ⇥` |
-| → | **stroke with gradient** |  | `va-strk-grad ⇥` |
-| → | **pattern** |  | `ve-patt ⇥` |
-| → | **patternUnits** |  | `va-patt-unit ⇥` |
-| → | **patternContentUnits** |  | `va-patt-cont ⇥` |
-| → | **patternTransform** |  | `va-patt-tran ⇥` |
-| → | **fill with pattern** |  | `va-fill-patt ⇥` |
-| → | **stroke with pattern** |  | `va-strk-patt ⇥` |
-| → | **mask definition** |  | `ve-mask ⇥` |
-| → | **mask a shape** |  | `va-fill-mask ⇥` |
-| → | **clip** |  | `ve-clip ⇥` |
-| → | **clip-path a shape** |  | `va-fill-clip ⇥` |
-| → | **clip-rule** |  | `va-clip-rule ⇥` |
-| → | **clipPathUnits** |  | `va-clip-puni ⇥` |
-| → | **marker** |  | `ve-mark ⇥` |
-| → | **marker-start** |  | `va-mark-strt ⇥` |
-| → | **marker-mid** |  | `va-mark-mid ⇥` |
-| → | **marker-end** |  | `va-mark-end ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt5.svg) |  **TRANSFORM**  | | |
-| → | **translate** |  | `ve-tran-slat ⇥` |
-| → | **rotate** |  | `ve-tran-rota ⇥` |
-| → | **scale** |  | `ve-tran-scal ⇥` |
-| → | **skewX** |  | `ve-tran-skwx ⇥` |
-| → | **skewY** |  | `ve-tran-skwy ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt6.svg) |  **ANIMATE**  | | |
-| → | **animate attribute** |  | `ve-anim ⇥` |
-| → | **animate transform** |  | `ve-anim-tran ⇥` |
-| → | **animate motion** |  | `ve-anim-moti ⇥` |
-| → | **motion path** |  | `ve-anim-momp ⇥` |
-| → | **from / to attributes** |  | `va-anim-frto ⇥` |
-| → | **values attribute** |  | `va-anim-valu ⇥` |
-| → | **begin** |  | `va-anim-begi ⇥` |
-| → | **keyPoints** |  | `va-anim-keyp ⇥` |
-| → | **keySplines** |  | `va-anim-keys ⇥` |
-| → | **keyTimes** |  | `va-anim-keyt ⇥` |
-| → | **accumulate** |  | `va-anim-acum ⇥` |
-| → | **additive** |  | `va-anim-adit ⇥` |
-| → | **calcMode** |  | `va-anim-calc ⇥` |
-| → | **set** |  | `ve-anim-sett ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt7.svg) |  **EXAMPLES**  | | |
-| → | **example 0 - grids** | grid made with pattern element | `vx-0 ⇥` |
-| → | **example 1 - shapes** | ... | `vx-2 ⇥` |
-| → | **example 2 - paths** | ... | `vx-3 ⇥` |
-| → | **example 3 - styling** | ... | `vx-4 ⇥` |
-| → | **style svg basic** |  | `va-css1 ⇥` |
-| → | **style svg full** |  | `va-css2 ⇥` |
+| | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | | |
+| `0` | → | **svg file - minimal** | Required attributes svg file | `ve-minifile ⇥` |
+| `1` | → | **svg file - full** | Full Attributes svg file | `ve-fullfile ⇥` |
+| `2` | → | **inline svg - minimal** | Required attribute inline svg | `ve-mininline ⇥` |
+| `3` | → | **inline svg - full** | Full attributes inline svg | `ve-minifull ⇥` |
+| `4` | → | **svg 24x24** |  | `ve-24 ⇥` |
+| `5` | → | **svg 32x32** |  | `ve-32 ⇥` |
+| `6` | → | **svg 64x64** |  | `ve-64 ⇥` |
+| `7` | → | **svg 128x128** |  | `ve-128 ⇥` |
+| `8` | → | **svg 512x512** |  | `ve-512 ⇥` |
+| `9` | → | **svg xmlns** |  | `va-xmlns ⇥` |
+| `10` | → | **svg xlink** |  | `va-xlink ⇥` |
+| `11` | → | **view** |  | `ve-view ⇥` |
+| `12` | → | **defs** |  | `ve-defs ⇥` |
+| `13` | → | **group** |  | `ve-grop ⇥` |
+| `14` | → | **symbol** |  | `ve-symb ⇥` |
+| `15` | → | **use symbol** |  | `ve-ussy ⇥` |
+| `16` | → | **use element** |  | `ve-usel ⇥` |
+| `17` | → | **description** |  | `ve-desc ⇥` |
+| `18` | → | **title** | For accessibility | `ve-titl ⇥` |
+| | ![icon](https://www.servovalve.org/nova/img/cnt2.svg) |  **SHAPES**  | | |
+| `0` | → | **circle** |  | `ve-circ ⇥` |
+| `1` | → | **ellipse** |  | `ve-elli ⇥` |
+| `2` | → | **rect** |  | `ve-rect ⇥` |
+| `3` | → | **round rect** |  | `ve-recr ⇥` |
+| `4` | → | **polygon** |  | `ve-polg ⇥` |
+| `5` | → | **line** |  | `ve-line ⇥` |
+| `6` | → | **polyline** |  | `ve-poli ⇥` |
+| `7` | → | **path** |  | `ve-path ⇥` |
+| `8` | → | **text minimal** |  | `ve-txtm ⇥` |
+| `9` | → | **text full** |  | `ve-txtf ⇥` |
+| `10` | → | **text path** |  | `ve-txtp ⇥` |
+| `11` | → | **tspan** |  | `ve-tspn ⇥` |
+| `12` | → | **image** |  | `ve-imag ⇥` |
+| | ![icon](https://www.servovalve.org/nova/img/cnt3.svg) |  **STYLING**  | | |
+| `0` | → | **fill** |  | `va-fill ⇥` |
+| `1` | → | **stroke** |  | `va-strk ⇥` |
+| `2` | → | **stroke-width** |  | `va-strk-wdth ⇥` |
+| `3` | → | **fill-opacity** |  | `va-fill-opac ⇥` |
+| `4` | → | **fill-rule** |  | `va-fill-rule ⇥` |
+| `5` | → | **stroke-opacity** |  | `va-strk-opac ⇥` |
+| `6` | → | **stroke-linecap** |  | `va-strk-linc ⇥` |
+| `7` | → | **stroke-linejoin** |  | `va-strk-linj ⇥` |
+| `8` | → | **stroke-dasharray** |  | `va-strk-darr ⇥` |
+| `9` | → | **stroke-dashoffset** |  | `va-strk-doff ⇥` |
+| `10` | → | **pathLength** |  | `va-path-leng ⇥` |
+| | ![icon](https://www.servovalve.org/nova/img/cnt4.svg) |  **ADVANCED**  | | |
+| `0` | → | **linear gradient** |  | `ve-lgrd ⇥` |
+| `1` | → | **radial gradient** |  | `ve-rgrd ⇥` |
+| `2` | → | **stop** |  | `ve-stop ⇥` |
+| `3` | → | **gradient units** |  | `va-grad-unit ⇥` |
+| `4` | → | **gradient transform** |  | `va-grad-tran ⇥` |
+| `5` | → | **fill with gradient** |  | `va-fill-grad ⇥` |
+| `6` | → | **stroke with gradient** |  | `va-strk-grad ⇥` |
+| `7` | → | **pattern** |  | `ve-patt ⇥` |
+| `8` | → | **patternUnits** |  | `va-patt-unit ⇥` |
+| `9` | → | **patternContentUnits** |  | `va-patt-cont ⇥` |
+| `10` | → | **patternTransform** |  | `va-patt-tran ⇥` |
+| `11` | → | **fill with pattern** |  | `va-fill-patt ⇥` |
+| `12` | → | **stroke with pattern** |  | `va-strk-patt ⇥` |
+| `13` | → | **mask definition** |  | `ve-mask ⇥` |
+| `14` | → | **mask a shape** |  | `va-fill-mask ⇥` |
+| `15` | → | **clip** |  | `ve-clip ⇥` |
+| `16` | → | **clip-path a shape** |  | `va-fill-clip ⇥` |
+| `17` | → | **clip-rule** |  | `va-clip-rule ⇥` |
+| `18` | → | **clipPathUnits** |  | `va-clip-puni ⇥` |
+| `19` | → | **marker** |  | `ve-mark ⇥` |
+| `20` | → | **marker-start** |  | `va-mark-strt ⇥` |
+| `21` | → | **marker-mid** |  | `va-mark-mid ⇥` |
+| `22` | → | **marker-end** |  | `va-mark-end ⇥` |
+| | ![icon](https://www.servovalve.org/nova/img/cnt5.svg) |  **TRANSFORM**  | | |
+| `0` | → | **translate** |  | `ve-tran-slat ⇥` |
+| `1` | → | **rotate** |  | `ve-tran-rota ⇥` |
+| `2` | → | **scale** |  | `ve-tran-scal ⇥` |
+| `3` | → | **skewX** |  | `ve-tran-skwx ⇥` |
+| `4` | → | **skewY** |  | `ve-tran-skwy ⇥` |
+| | ![icon](https://www.servovalve.org/nova/img/cnt6.svg) |  **ANIMATE**  | | |
+| `0` | → | **animate attribute** |  | `ve-anim ⇥` |
+| `1` | → | **animate transform** |  | `ve-anim-tran ⇥` |
+| `2` | → | **animate motion** |  | `ve-anim-moti ⇥` |
+| `3` | → | **motion path** |  | `ve-anim-momp ⇥` |
+| `4` | → | **from / to attributes** |  | `va-anim-frto ⇥` |
+| `5` | → | **values attribute** |  | `va-anim-valu ⇥` |
+| `6` | → | **begin** |  | `va-anim-begi ⇥` |
+| `7` | → | **keyPoints** |  | `va-anim-keyp ⇥` |
+| `8` | → | **keySplines** |  | `va-anim-keys ⇥` |
+| `9` | → | **keyTimes** |  | `va-anim-keyt ⇥` |
+| `10` | → | **accumulate** |  | `va-anim-acum ⇥` |
+| `11` | → | **additive** |  | `va-anim-adit ⇥` |
+| `12` | → | **calcMode** |  | `va-anim-calc ⇥` |
+| `13` | → | **set** |  | `ve-anim-sett ⇥` |
+| | ![icon](https://www.servovalve.org/nova/img/cnt7.svg) |  **EXAMPLES**  | | |
+| `0` | → | **example 0 - grids** | grid made with pattern element | `vx-0 ⇥` |
+| `1` | → | **example 1 - shapes** | ... | `vx-2 ⇥` |
+| `2` | → | **example 2 - paths** | ... | `vx-3 ⇥` |
+| `3` | → | **example 3 - styling** | ... | `vx-4 ⇥` |
+| `4` | → | **style svg basic** |  | `va-css1 ⇥` |
+| `5` | → | **style svg full** |  | `va-css2 ⇥` |
