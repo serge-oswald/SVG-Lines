@@ -35,7 +35,7 @@ Improving what's needed… missing elements & attributes, svg filters…
 ****
 ## Details
 
-|`#`         |           | `Folder / Clip name`|`Description`|`Trigger`|
+|`#`         |                  | `Folder / Clip name`|`Description`|`Trigger`|
 |---:|:---:|:---|:---|--:|
 | | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | | |
 | `10` | → | **svg file - minimal** | Required attributes svg file | `ve-minifile ⇥` |
