@@ -21,15 +21,12 @@ organized in 7 folders :
 | `6` | Animation         | Animate attribute, transformation, or motion.                 | `14 clips`  |
 | `7` | Examples          | Samples made in Nova using SVG lines clips.                   | `04 clips`  |
 
+The organization of the folders corresponds to the structure of the course I share with my students.
+
 
 ****
 ## Details
 ...
-
-
-****
-## About
-The organization of the folders corresponds to the structure of the course I share with my students.
 
 
 ****
