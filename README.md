@@ -28,8 +28,16 @@ The organization of the folders corresponds to the structure of the course I sha
 
 ****
 ## Details
-...
 
+|1|2|3|
+|---|---|---|
+| Structure | . | . |
+| Shapes | . | . |
+| Styling | . | . |
+| Advanced | . | . |
+| Transform | . | . |
+| Animate | . | . |
+| Examples | . | . |
 
 ****
 ## Future ?
