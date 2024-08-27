@@ -32,106 +32,107 @@ The organization of the folders corresponds to the structure of the course I sha
 ****
 ## Details
 
-|1|2|3|
-|---|---|---|
-| Structure | _ | _ |
-| Structure | svg file - minimal | Required attributes svg file |
-| Structure | svg file - full | Full Attributes svg file |
-| Structure | inline svg - minimal | Required attribute inline svg |
-| Structure | inline svg - full | Full attributes inline svg |
-| Structure | svg 24x24 | undefined |
-| Structure | svg 32x32 | undefined |
-| Structure | svg 64x64 | undefined |
-| Structure | svg 128x128 | undefined |
-| Structure | svg 512x512 | undefined |
-| Structure | svg xmlns | undefined |
-| Structure | svg xlink | undefined |
-| Structure | view | undefined |
-| Structure | defs | undefined |
-| Structure | group | undefined |
-| Structure | symbol | undefined |
-| Structure | use symbol | undefined |
-| Structure | use (clone) element | undefined |
-| Structure | description | undefined |
-| Structure | title | For accessibility |
-| Shapes | _ | _ |
-| Shapes | circle | undefined |
-| Shapes | ellipse | undefined |
-| Shapes | rect | undefined |
-| Shapes | round rect | undefined |
-| Shapes | polygon | undefined |
-| Shapes | line | undefined |
-| Shapes | polyline | undefined |
-| Shapes | path | undefined |
-| Shapes | text minimal | undefined |
-| Shapes | text full | undefined |
-| Shapes | text path | undefined |
-| Shapes | tspan | undefined |
-| Shapes | image | undefined |
-| Styling | _ | _ |
-| Styling | fill | undefined |
-| Styling | stroke | undefined |
-| Styling | stroke-width | undefined |
-| Styling | fill-opacity | undefined |
-| Styling | fill-rule | undefined |
-| Styling | stroke-opacity | undefined |
-| Styling | stroke-linecap | undefined |
-| Styling | stroke-linejoin | undefined |
-| Styling | stroke-dasharray | undefined |
-| Styling | stroke-dashoffset | undefined |
-| Styling | pathLength | undefined |
-| Advanced | _ | _ |
-| Advanced | linear gradient | undefined |
-| Advanced | radial gradient | undefined |
-| Advanced | stop | undefined |
-| Advanced | gradient units | undefined |
-| Advanced | gradient transform | undefined |
-| Advanced | fill with gradient | undefined |
-| Advanced | stroke with gradient | undefined |
-| Advanced | pattern | undefined |
-| Advanced | patternUnits | undefined |
-| Advanced | patternContentUnits | undefined |
-| Advanced | patternTransform | undefined |
-| Advanced | fill with pattern | undefined |
-| Advanced | stroke with pattern | undefined |
-| Advanced | mask definition | undefined |
-| Advanced | mask a shape | undefined |
-| Advanced | clip | undefined |
-| Advanced | clip-path a shape | undefined |
-| Advanced | clip-rule | undefined |
-| Advanced | clipPathUnits | undefined |
-| Advanced | marker | undefined |
-| Advanced | marker-start | undefined |
-| Advanced | marker-mid | undefined |
-| Advanced | marker-end | undefined |
-| Transform | _ | _ |
-| Transform | translate | undefined |
-| Transform | rotate | undefined |
-| Transform | scale | undefined |
-| Transform | skewX | undefined |
-| Transform | skewY | undefined |
-| Animate | _ | _ |
-| Animate | animate attribute | undefined |
-| Animate | animate transform | undefined |
-| Animate | animate motion | undefined |
-| Animate | motion path | undefined |
-| Animate | from / to attributes | undefined |
-| Animate | values attribute | undefined |
-| Animate | begin | undefined |
-| Animate | keyPoints | undefined |
-| Animate | keySplines | undefined |
-| Animate | keyTimes | undefined |
-| Animate | accumulate | undefined |
-| Animate | additive | undefined |
-| Animate | calcMode | undefined |
-| Animate | set | undefined |
-| Examples | _ | _ |
-| Examples | example 0 - grids | grid made with pattern element |
-| Examples | example 1 - shapes | ... |
-| Examples | example 2 - paths | ... |
-| Examples | example 3 - styling | ... |
-| Examples | style svg basic | undefined |
-| Examples | style svg full | undefined |
+|1|2|3|4|
+|---|---|---|---|
+| Structure | _ | _ | _ |
+| **Structure** | svg file - minimal | Required attributes svg file | ve-minifile |
+| **Structure** | svg file - full | Full Attributes svg file | ve-fullfile |
+| **Structure** | inline svg - minimal | Required attribute inline svg | ve-mininline |
+| **Structure** | inline svg - full | Full attributes inline svg | ve-minifull |
+| **Structure** | svg 24x24 | undefined | ve-24 |
+| **Structure** | svg 32x32 | undefined | ve-32 |
+| **Structure** | svg 64x64 | undefined | ve-64 |
+| **Structure** | svg 128x128 | undefined | ve-128 |
+| **Structure** | svg 512x512 | undefined | ve-512 |
+| **Structure** | svg xmlns | undefined | va-xmlns |
+| **Structure** | svg xlink | undefined | va-xlink |
+| **Structure** | view | undefined | ve-view |
+| **Structure** | defs | undefined | ve-defs |
+| **Structure** | group | undefined | ve-grop |
+| **Structure** | symbol | undefined | ve-symb |
+| **Structure** | use symbol | undefined | ve-ussy |
+| **Structure** | use (clone) element | undefined | ve-usxl |
+| **Structure** | description | undefined | ve-desc |
+| **Structure** | title | For accessibility | ve-titl |
+| Shapes | _ | _ | _ |
+| **Shapes** | circle | undefined | ve-circ |
+| **Shapes** | ellipse | undefined | ve-elli |
+| **Shapes** | rect | undefined | ve-rect |
+| **Shapes** | round rect | undefined | ve-recr |
+| **Shapes** | polygon | undefined | ve-polg |
+| **Shapes** | line | undefined | ve-line |
+| **Shapes** | polyline | undefined | ve-poli |
+| **Shapes** | path | undefined | ve-path |
+| **Shapes** | text minimal | undefined | ve-txtm |
+| **Shapes** | text full | undefined | ve-txtf |
+| **Shapes** | text path | undefined | ve-txtp |
+| **Shapes** | tspan | undefined | ve-tspn |
+| **Shapes** | image | undefined | ve-imag |
+| Styling | _ | _ | _ |
+| **Styling** | fill | undefined | va-fill |
+| **Styling** | stroke | undefined | va-strk |
+| **Styling** | stroke-width | undefined | va-strk-wdth |
+| **Styling** | fill-opacity | undefined | va-fill-opac |
+| **Styling** | fill-rule | undefined | va-fill-rule |
+| **Styling** | stroke-opacity | undefined | va-strk-opac |
+| **Styling** | stroke-linecap | undefined | va-strk-linc |
+| **Styling** | stroke-linejoin | undefined | va-strk-linj |
+| **Styling** | stroke-dasharray | undefined | va-strk-darr |
+| **Styling** | stroke-dashoffset | undefined | va-strk-doff |
+| **Styling** | pathLength | undefined | va-path-leng |
+| Advanced | _ | _ | _ |
+| **Advanced** | linear gradient | undefined | ve-lgrd |
+| **Advanced** | radial gradient | undefined | ve-rgrd |
+| **Advanced** | stop | undefined | ve-stop |
+| **Advanced** | gradient units | undefined | va-grad-unit |
+| **Advanced** | gradient transform | undefined | va-grad-tran |
+| **Advanced** | fill with gradient | undefined | va-fill-grad |
+| **Advanced** | stroke with gradient | undefined | va-strk-grad |
+| **Advanced** | pattern | undefined | ve-patt |
+| **Advanced** | patternUnits | undefined | va-patt-unit |
+| **Advanced** | patternContentUnits | undefined | va-patt-cont |
+| **Advanced** | patternTransform | undefined | va-patt-tran |
+| **Advanced** | fill with pattern | undefined | va-fill-patt |
+| **Advanced** | stroke with pattern | undefined | va-strk-patt |
+| **Advanced** | mask definition | undefined | ve-mask |
+| **Advanced** | mask a shape | undefined | va-fill-mask |
+| **Advanced** | clip | undefined | ve-clip |
+| **Advanced** | clip-path a shape | undefined | va-fill-clip |
+| **Advanced** | clip-rule | undefined | va-clip-rule |
+| **Advanced** | clipPathUnits | undefined | va-clip-puni |
+| **Advanced** | marker | undefined | ve-mark |
+| **Advanced** | marker-start | undefined | va-mark-strt |
+| **Advanced** | marker-mid | undefined | va-mark-mid |
+| **Advanced** | marker-end | undefined | va-mark-end |
+| Transform | _ | _ | _ |
+| **Transform** | translate | undefined | ve-tran-slat |
+| **Transform** | rotate | undefined | ve-tran-rota |
+| **Transform** | scale | undefined | ve-tran-scal |
+| **Transform** | skewX | undefined | ve-tran-skwx |
+| **Transform** | skewY | undefined | ve-tran-skwy |
+| Animate | _ | _ | _ |
+| **Animate** | animate attribute | undefined | ve-anim |
+| **Animate** | animate transform | undefined | ve-anim-tran |
+| **Animate** | animate motion | undefined | ve-anim-moti |
+| **Animate** | motion path | undefined | ve-anim-momp |
+| **Animate** | from / to attributes | undefined | va-anim-frto |
+| **Animate** | values attribute | undefined | va-anim-valu |
+| **Animate** | begin | undefined | va-anim-begi |
+| **Animate** | keyPoints | undefined | va-anim-keyp |
+| **Animate** | keySplines | undefined | va-anim-keys |
+| **Animate** | keyTimes | undefined | va-anim-keyt |
+| **Animate** | accumulate | undefined | va-anim-acum |
+| **Animate** | additive | undefined | va-anim-adit |
+| **Animate** | calcMode | undefined | va-anim-calc |
+| **Animate** | set | undefined | ve-anim-sett |
+| Examples | _ | _ | _ |
+| **Examples** | example 0 - grids | grid made with pattern element | vx-0 |
+| **Examples** | example 1 - shapes | ... | vx-2 |
+| **Examples** | example 2 - paths | ... | vx-3 |
+| **Examples** | example 3 - styling | ... | vx-4 |
+| **Examples** | style svg basic | undefined | va-css1 |
+| **Examples** | style svg full | undefined | va-css2 |
+
 
 
 
