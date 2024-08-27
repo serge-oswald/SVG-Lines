@@ -36,7 +36,7 @@ Improving what's needed… missing elements & attributes, svg filters…
 ## Details
 
 |`1`         |`2`|`3`|`4`|
-|---|---|---|---|
+|---|---|---|---:|
 | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | _ | _ |
 | → | **svg file - minimal** | Required attributes svg file | `ve-minifile ⇥` |
 | → | **svg file - full** | Full Attributes svg file | `ve-fullfile ⇥` |
