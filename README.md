@@ -36,7 +36,7 @@ Improving what's needed… missing elements & attributes, svg filters…
 ## Details
 
 |`1`         |`2`|`3`|`4`|
-|---|---|---|---:|
+|---|---|---|--:|
 | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | | |
 | → | **svg file - minimal** | Required attributes svg file | `ve-minifile ⇥` |
 | → | **svg file - full** | Full Attributes svg file | `ve-fullfile ⇥` |
@@ -54,10 +54,10 @@ Improving what's needed… missing elements & attributes, svg filters…
 | → | **group** |  | `ve-grop ⇥` |
 | → | **symbol** |  | `ve-symb ⇥` |
 | → | **use symbol** |  | `ve-ussy ⇥` |
-| → | **use (clone) element** |  | `ve-usxl ⇥` |
+| → | **use element** |  | `ve-usel ⇥` |
 | → | **description** |  | `ve-desc ⇥` |
 | → | **title** | For accessibility | `ve-titl ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt2.svg) |  **SHAPES**  | _ | _ |
+| ![icon](https://www.servovalve.org/nova/img/cnt2.svg) |  **SHAPES**  | | |
 | → | **circle** |  | `ve-circ ⇥` |
 | → | **ellipse** |  | `ve-elli ⇥` |
 | → | **rect** |  | `ve-rect ⇥` |
@@ -71,7 +71,7 @@ Improving what's needed… missing elements & attributes, svg filters…
 | → | **text path** |  | `ve-txtp ⇥` |
 | → | **tspan** |  | `ve-tspn ⇥` |
 | → | **image** |  | `ve-imag ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt3.svg) |  **STYLING**  | _ | _ |
+| ![icon](https://www.servovalve.org/nova/img/cnt3.svg) |  **STYLING**  | | |
 | → | **fill** |  | `va-fill ⇥` |
 | → | **stroke** |  | `va-strk ⇥` |
 | → | **stroke-width** |  | `va-strk-wdth ⇥` |
@@ -83,7 +83,7 @@ Improving what's needed… missing elements & attributes, svg filters…
 | → | **stroke-dasharray** |  | `va-strk-darr ⇥` |
 | → | **stroke-dashoffset** |  | `va-strk-doff ⇥` |
 | → | **pathLength** |  | `va-path-leng ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt4.svg) |  **ADVANCED**  | _ | _ |
+| ![icon](https://www.servovalve.org/nova/img/cnt4.svg) |  **ADVANCED**  | | |
 | → | **linear gradient** |  | `ve-lgrd ⇥` |
 | → | **radial gradient** |  | `ve-rgrd ⇥` |
 | → | **stop** |  | `ve-stop ⇥` |
@@ -107,13 +107,13 @@ Improving what's needed… missing elements & attributes, svg filters…
 | → | **marker-start** |  | `va-mark-strt ⇥` |
 | → | **marker-mid** |  | `va-mark-mid ⇥` |
 | → | **marker-end** |  | `va-mark-end ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt5.svg) |  **TRANSFORM**  | _ | _ |
+| ![icon](https://www.servovalve.org/nova/img/cnt5.svg) |  **TRANSFORM**  | | |
 | → | **translate** |  | `ve-tran-slat ⇥` |
 | → | **rotate** |  | `ve-tran-rota ⇥` |
 | → | **scale** |  | `ve-tran-scal ⇥` |
 | → | **skewX** |  | `ve-tran-skwx ⇥` |
 | → | **skewY** |  | `ve-tran-skwy ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt6.svg) |  **ANIMATE**  | _ | _ |
+| ![icon](https://www.servovalve.org/nova/img/cnt6.svg) |  **ANIMATE**  | | |
 | → | **animate attribute** |  | `ve-anim ⇥` |
 | → | **animate transform** |  | `ve-anim-tran ⇥` |
 | → | **animate motion** |  | `ve-anim-moti ⇥` |
@@ -128,7 +128,7 @@ Improving what's needed… missing elements & attributes, svg filters…
 | → | **additive** |  | `va-anim-adit ⇥` |
 | → | **calcMode** |  | `va-anim-calc ⇥` |
 | → | **set** |  | `ve-anim-sett ⇥` |
-| ![icon](https://www.servovalve.org/nova/img/cnt7.svg) |  **EXAMPLES**  | _ | _ |
+| ![icon](https://www.servovalve.org/nova/img/cnt7.svg) |  **EXAMPLES**  | | |
 | → | **example 0 - grids** | grid made with pattern element | `vx-0 ⇥` |
 | → | **example 1 - shapes** | ... | `vx-2 ⇥` |
 | → | **example 2 - paths** | ... | `vx-3 ⇥` |
