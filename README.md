@@ -11,8 +11,6 @@
 47 elements, 38 attributes, 4 examples,
 organized in 7 folders :
 
-The organization of the folders corresponds to the structure of the course I share with my students.
-
 | `#` | `Folders`            | `Content`                                                     | `## clips`  |
 | :-- | :--                  | :--                                                           | --:         |
 | `1` | **Structure**        | Svg header for file or inline html, structural elements.      | `19 clips`  |
@@ -23,7 +21,7 @@ The organization of the folders corresponds to the structure of the course I sha
 | `6` | **Animation**        | Animate attribute, transformation, or motion.                 | `14 clips`  |
 | `7` | **Examples**         | Samples made in Nova using SVG lines clips.                   | `04 clips`  |
 
-
+The organization of the folders corresponds to the structure of the course I share with my students.
 
 
 ****
