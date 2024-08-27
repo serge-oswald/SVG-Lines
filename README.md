@@ -33,7 +33,7 @@ Improving what's needed… missing elements & attributes, svg filters…
 ****
 ## Details
 
-|`#`         |                 | `Folder / Clip name`|`Description`|`Trigger`|
+|`#`|                 | `Folder / Clip name`|`Description`|`Trigger`|
 |---:|:---:|:---|:---|--:|
 | ↓ | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | | |
 | `1.1` | → | **svg file - minimal** | Required attributes svg file | `ve-minifile ⇥` |
