@@ -7,6 +7,8 @@
  
  
  
+ 
+ 
 ****
  
  
@@ -30,6 +32,8 @@
 The organization of the folders corresponds to the structure of the course I share with my students.
 
 
+ 
+ 
  
  
  
@@ -142,6 +146,8 @@ The organization of the folders corresponds to the structure of the course I sha
 | `7.5 ` | → | **style svg basic** |  | `va-css1 ⇥` |
 | `7.6 ` | → | **style svg full** |  | `va-css2 ⇥` |
 
+ 
+ 
  
  
  
