@@ -43,7 +43,7 @@ The organization of the folders corresponds to the structure of the course I sha
 
 |`   #`|                      | `Folder / Clip name`|`Description`|`Trigger`|
 |:--|:--:|:---|:---|--:|
-| ↓ | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | | |
+| `1` | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | | |
 | `1.1` | → | **svg file - minimal** | Required attributes svg file | `ve-minifile ⇥` |
 | `1.2` | → | **svg file - full** | Full Attributes svg file | `ve-fullfile ⇥` |
 | `1.3` | → | **inline svg - minimal** | Required attribute inline svg | `ve-mininline ⇥` |
@@ -63,7 +63,7 @@ The organization of the folders corresponds to the structure of the course I sha
 | `1.17` | → | **use element** |  | `ve-usel ⇥` |
 | `1.18` | → | **description** |  | `ve-desc ⇥` |
 | `1.19` | → | **title** | For accessibility | `ve-titl ⇥` |
-| ↓ | ![icon](https://www.servovalve.org/nova/img/cnt2.svg) |  **SHAPES**  | | |
+| `2` | ![icon](https://www.servovalve.org/nova/img/cnt2.svg) |  **SHAPES**  | | |
 | `2.1` | → | **circle** |  | `ve-circ ⇥` |
 | `2.2` | → | **ellipse** |  | `ve-elli ⇥` |
 | `2.3` | → | **rect** |  | `ve-rect ⇥` |
@@ -77,7 +77,7 @@ The organization of the folders corresponds to the structure of the course I sha
 | `2.11` | → | **text path** |  | `ve-txtp ⇥` |
 | `2.12` | → | **tspan** |  | `ve-tspn ⇥` |
 | `2.13` | → | **image** |  | `ve-imag ⇥` |
-| ↓ | ![icon](https://www.servovalve.org/nova/img/cnt3.svg) |  **STYLING**  | | |
+| `3` | ![icon](https://www.servovalve.org/nova/img/cnt3.svg) |  **STYLING**  | | |
 | `3.1` | → | **fill** |  | `va-fill ⇥` |
 | `3.2` | → | **stroke** |  | `va-strk ⇥` |
 | `3.3` | → | **stroke-width** |  | `va-strk-wdth ⇥` |
@@ -89,7 +89,7 @@ The organization of the folders corresponds to the structure of the course I sha
 | `3.9` | → | **stroke-dasharray** |  | `va-strk-darr ⇥` |
 | `3.10` | → | **stroke-dashoffset** |  | `va-strk-doff ⇥` |
 | `3.11` | → | **pathLength** |  | `va-path-leng ⇥` |
-| ↓ | ![icon](https://www.servovalve.org/nova/img/cnt4.svg) |  **ADVANCED**  | | |
+| `4` | ![icon](https://www.servovalve.org/nova/img/cnt4.svg) |  **ADVANCED**  | | |
 | `4.1` | → | **linear gradient** |  | `ve-lgrd ⇥` |
 | `4.2` | → | **radial gradient** |  | `ve-rgrd ⇥` |
 | `4.3` | → | **stop** |  | `ve-stop ⇥` |
@@ -113,13 +113,13 @@ The organization of the folders corresponds to the structure of the course I sha
 | `4.21` | → | **marker-start** |  | `va-mark-strt ⇥` |
 | `4.22` | → | **marker-mid** |  | `va-mark-mid ⇥` |
 | `4.23` | → | **marker-end** |  | `va-mark-end ⇥` |
-| ↓ | ![icon](https://www.servovalve.org/nova/img/cnt5.svg) |  **TRANSFORM**  | | |
+| `5` | ![icon](https://www.servovalve.org/nova/img/cnt5.svg) |  **TRANSFORM**  | | |
 | `5.1` | → | **translate** |  | `ve-tran-slat ⇥` |
 | `5.2` | → | **rotate** |  | `ve-tran-rota ⇥` |
 | `5.3` | → | **scale** |  | `ve-tran-scal ⇥` |
 | `5.4` | → | **skewX** |  | `ve-tran-skwx ⇥` |
 | `5.5` | → | **skewY** |  | `ve-tran-skwy ⇥` |
-| ↓ | ![icon](https://www.servovalve.org/nova/img/cnt6.svg) |  **ANIMATE**  | | |
+| `6` | ![icon](https://www.servovalve.org/nova/img/cnt6.svg) |  **ANIMATE**  | | |
 | `6.1` | → | **animate attribute** |  | `ve-anim ⇥` |
 | `6.2` | → | **animate transform** |  | `ve-anim-tran ⇥` |
 | `6.3` | → | **animate motion** |  | `ve-anim-moti ⇥` |
@@ -134,7 +134,7 @@ The organization of the folders corresponds to the structure of the course I sha
 | `6.12` | → | **additive** |  | `va-anim-adit ⇥` |
 | `6.13` | → | **calcMode** |  | `va-anim-calc ⇥` |
 | `6.14` | → | **set** |  | `ve-anim-sett ⇥` |
-| ↓ | ![icon](https://www.servovalve.org/nova/img/cnt7.svg) |  **EXAMPLES**  | | |
+| `7` | ![icon](https://www.servovalve.org/nova/img/cnt7.svg) |  **EXAMPLES**  | | |
 | `7.1` | → | **example 0 - grids** | grid made with pattern element | `vx-0 ⇥` |
 | `7.2` | → | **example 1 - shapes** | ... | `vx-2 ⇥` |
 | `7.3` | → | **example 2 - paths** | ... | `vx-3 ⇥` |
