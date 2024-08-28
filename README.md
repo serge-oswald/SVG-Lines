@@ -3,7 +3,7 @@
 
 
 
-![servovalve website](https://www.servovalve.org/nova/img/svglines-header.svg)
+![servovalve website](https://www.servovalve.org/nova/img/svglines-headerz.svg)
 
 ****
 ## 89 Clips
