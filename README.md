@@ -26,14 +26,9 @@
 | `5   ` | ![icon](https://www.servovalve.org/nova/img/cnt5.svg) | **TRANSFORM** | Translation, rotation, scale, skew. | `5 clips` |
 | `6   ` | ![icon](https://www.servovalve.org/nova/img/cnt6.svg) | **ANIMATE** | Animate attribute, transformation, or motion. | `14 clips` |
 | `7   ` | ![icon](https://www.servovalve.org/nova/img/cnt7.svg) | **EXAMPLES** | Samples ans starting lines. | `6 clips` |
-| `=   ` | ![icon](https://www.servovalve.org/nova/img/cnt0.svg) |**→**|47 elements, 40 attributes, and 4 examples…| `91 clips` |
+| `→   ` | ![icon](https://www.servovalve.org/nova/img/cnt0.svg) | |47 elements, 40 attributes, 4 examples | `91 clips` |
 
-
-**91 Clips** organized in 7 folders including 47 elements, 40 attributes, and 4 examples…
-
-The organization of the folders corresponds to the structure of the course I share with my students.
-
-
+The organization of the folders corresponds to the structure of the [course](https://www.servovalve.org/codesign_svg/) I share with my students.
  
  
  
