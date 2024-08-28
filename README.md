@@ -24,24 +24,28 @@ organized in 7 folders :
 The organization of the folders corresponds to the structure of the course I share with my students.
 
 ****
-## 89 Clips
+## Future ?
+Improving what's needed… missing elements & attributes, svg filters…
 
-47 elements, 38 attributes, 4 examples, organized in 7 folders :
-
-| `#` |                      | `Folders`            | `Content`                                                     | `## clips`  |
-| :-- | :--                  | :--                  | :--                                                           | --:         |
-| `1` | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) | **STRUCTURE** | Svg header for file or inline html, structural elements. | `19 clips`  |
-| `1` | ![icon](https://www.servovalve.org/nova/img/cnt2.svg) | **SHAPES** | Primitives shapes, text, images. | `19 clips`  |
-| `1` | ![icon](https://www.servovalve.org/nova/img/cnt3.svg) | **STYLING** | Coloring, stroking, dashing, dotting. | `19 clips`  |
-| `1` | ![icon](https://www.servovalve.org/nova/img/cnt4.svg) | **ADVANCED** | Deeper styling with gradient, pattern, mask. | `19 clips`  |
-| `1` | ![icon](https://www.servovalve.org/nova/img/cnt5.svg) | **TRANSFORM** | Translation, rotation, scale, skew. | `19 clips`  |
-| `1` | ![icon](https://www.servovalve.org/nova/img/cnt6.svg) | **ANIMATE** | Animate attribute, transformation, or motion. | `19 clips`  |
-| `1` | ![icon](https://www.servovalve.org/nova/img/cnt7.svg) | **EXAMPLES** | Samples ans starting lines. | `19 clips`  |
 
 
 ****
-## Future ?
-Improving what's needed… missing elements & attributes, svg filters…
+## 91 Clips
+
+| `#` |                      | `Folders`| `Content` | `## clips`  |
+| :-- | :-- | :-- | :-- | --:         |
+| `1` | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) | **STRUCTURE** | Svg header for file or inline html, structural elements. | `19 clips`  |
+| `1` | ![icon](https://www.servovalve.org/nova/img/cnt2.svg) | **SHAPES** | Primitives shapes, text, images. | `13 clips`  |
+| `1` | ![icon](https://www.servovalve.org/nova/img/cnt3.svg) | **STYLING** | Coloring, stroking, dashing, dotting. | `11 clips`  |
+| `1` | ![icon](https://www.servovalve.org/nova/img/cnt4.svg) | **ADVANCED** | Deeper styling with gradient, pattern, mask. | `23 clips`  |
+| `1` | ![icon](https://www.servovalve.org/nova/img/cnt5.svg) | **TRANSFORM** | Translation, rotation, scale, skew. | `5 clips`  |
+| `1` | ![icon](https://www.servovalve.org/nova/img/cnt6.svg) | **ANIMATE** | Animate attribute, transformation, or motion. | `14 clips`  |
+| `1` | ![icon](https://www.servovalve.org/nova/img/cnt7.svg) | **EXAMPLES** | Samples ans starting lines. | `6 clips`  |
+
+
+47 elements, 40 attributes, 4 examples, organized in 7 folders :
+
+The organization of the folders corresponds to the structure of the course I share with my students.
 
 
 
