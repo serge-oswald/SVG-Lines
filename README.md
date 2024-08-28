@@ -1,18 +1,17 @@
-# SVG Lines
+# Svg Lines
+
 **[Panic Nova](https://nova.app)** extension including a set of SVG shortcuts, enabling you to play with **S**calable **V**ector **G**raphics.
 
-
-
 ![servovalve website](https://www.servovalve.org/nova/img/svglines-header.svg)
-
-
-
-
  
-
-
-
+ 
+ 
+ 
 ****
+ 
+ 
+ 
+ 
 ## 91 Clips
 
 | `#` |                      | `Folders`| `Description` | `## clips`  |
@@ -31,8 +30,15 @@
 The organization of the folders corresponds to the structure of the course I share with my students.
 
 
-
+ 
+ 
+ 
+ 
 ****
+ 
+ 
+ 
+ 
 ## Details
 
 |`#`|                      | `Folder / Clip name`|`Description`|`Trigger`|
