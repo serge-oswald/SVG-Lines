@@ -28,7 +28,7 @@
 | `7   ` | ![icon](https://www.servovalve.org/nova/img/cnt7.svg) | **EXAMPLES** | Samples ans starting lines. | `6 clips`  |
 
 
-47 elements, 40 attributes, 4 examples, organized in 7 folders :
+**91 Clips** organized in 7 folders including 47 elements, 40 attributes, and 4 examples…
 
 The organization of the folders corresponds to the structure of the course I share with my students.
 
@@ -47,7 +47,7 @@ The organization of the folders corresponds to the structure of the course I sha
  
 ## Details
 
-|`#   `|                      | `Folder / Clip name`|`Description`|`Trigger`|
+|`#   `|                      | `Clip name`|`Description`|`Trigger`|
 |:--|:--:|:---|:---|--:|
 | `1   ` | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | | |
 | `1.1 ` | → | **svg file - minimal** | Required attributes svg file | `ve-minifile ⇥` |
