@@ -32,8 +32,8 @@ Improving what's needed… missing elements & attributes, svg filters…
 ****
 ## 91 Clips
 
-| `#` |                      | `Folders`| `Content` | `## clips`  |
-| :-- | :-- | :-- | :-- | --:         |
+| `   #` |                      | `Folders`| `Content` | `## clips`  |
+| --: | :-- | :-- | :-- | --:         |
 | `1` | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) | **STRUCTURE** | Svg header for file or inline html, structural elements. | `19 clips`  |
 | `1` | ![icon](https://www.servovalve.org/nova/img/cnt2.svg) | **SHAPES** | Primitives shapes, text, images. | `13 clips`  |
 | `1` | ![icon](https://www.servovalve.org/nova/img/cnt3.svg) | **STYLING** | Coloring, stroking, dashing, dotting. | `11 clips`  |
