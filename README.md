@@ -15,7 +15,9 @@
  
  
  
-## Content| `#   ` |                      | `Folders`| `Description` | `## clips`  |
+## 91 Clips
+
+| `#   ` |                      | `Folders`| `Description` | `## clips`  |
 | :-- | :-- | :-- | :-- | --:         |
 | `1   ` | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) | **STRUCTURE** | Svg header for file or inline html, structural elements. | `19 clips`  |
 | `2   ` | ![icon](https://www.servovalve.org/nova/img/cnt2.svg) | **SHAPES** | Primitives shapes, text, images. | `13 clips`  |
@@ -26,7 +28,6 @@
 | `7   ` | ![icon](https://www.servovalve.org/nova/img/cnt7.svg) | **EXAMPLES** | Samples ans starting lines. | `6 clips`  |
 
 
- 
 **91 Clips** organized in 7 folders including 47 elements, 40 attributes, and 4 examples…
 
 The organization of the folders corresponds to the structure of the course I share with my students.
