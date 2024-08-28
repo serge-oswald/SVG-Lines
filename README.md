@@ -42,7 +42,7 @@ The organization of the folders corresponds to the structure of the course I sha
 ## Details
 
 |`   #`|                      | `Folder / Clip name`|`Description`|`Trigger`|
-|---:|:---:|:---|:---|--:|
+|:--|:--:|:---|:---|--:|
 | ↓ | ![icon](https://www.servovalve.org/nova/img/cnt1.svg) |  **STRUCTURE**  | | |
 | `1.1` | → | **svg file - minimal** | Required attributes svg file | `ve-minifile ⇥` |
 | `1.2` | → | **svg file - full** | Full Attributes svg file | `ve-fullfile ⇥` |
