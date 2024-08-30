@@ -1,0 +1,638 @@
+{
+  "clips" : [
+    {
+      "name" : "Structure",
+      "children" : [
+        {
+          "content" : "<svg\nxmlns=\"http://www.w3.org/2000/svg\"\nxmlns:xlink=\"http://www.w3.org/1999/xlink\"\nviewBox=\"0 0 ${:width} ${:height}\"\nx=\"0\" y=\"0\"\n>\n    <style>\n\n.classname {\n    fill: #000;\n    stroke: #000;\n    stroke-width:1;\n    stroke-dasharray:2 2;\n    stroke-dashoffet:0;\n    stroke-linecap: ${:butt}${:round}${:square};\n    stroke-linejoin: ${:miter}${:round}${:bevel};\n    /* stroke-miterlimit:0; */\n}\n    </style>\n\n    <defs>\n        <!-- Definition area (non visible) ! -->\n    </defs>\n\n\n    <!-- Draw what you want ! -->\n\n\n</svg>",
+          "name" : "svg file 1",
+          "description" : "Svg file with prepositioned elements (style + defs)",
+          "scope" : "editor",
+          "trigger" : "vg-file1",
+        },
+        {
+          "content" : "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 ${:width} ${:height}\">\n\n\n    <!-- Draw what you want ! -->\n\n\n</svg>",
+          "name" : "svg file 2",
+          "description" : "Svg file with required attributes ",
+          "scope" : "editor",
+          "trigger" : "vg-file2",
+        },
+        {
+          "content" : "<svg viewBox=\"0 0 ${:width} ${:height}\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" >\n    <defs>\n        <pattern id=\"gridx16\" x=\"0\" y=\"0\" width=\"16\" height=\"16\" patternUnits=\"userSpaceOnUse\">\n            <rect x=\"0\" y=\"0\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.25\" />\n        </pattern>\n    </defs>\n    <rect x=\"0\" y=\"0\" width=\"${:width}\" height=\"${:height}\" fill=\"url(#gridx16)\" />\n</svg>",
+          "name" : "svg file 3",
+          "description" : "Svg file with grid (inline use)",
+          "scope" : "editor",
+          "trigger" : "vg-file3",
+        },
+
+        {
+          "content" : "<svg viewBox=\"0 0 512 512\"></svg>",
+          "name" : "svg 512x512",
+          "scope" : "editor",
+          "trigger" : "vg-512",
+        },
+        {
+          "content" : "<svg viewBox=\"0 0 128 128\"></svg>",
+          "name" : "svg 128x128",
+          "scope" : "editor",
+          "trigger" : "vg-128",
+        },
+        {
+          "content" : "<svg viewBox=\"0 0 64 64\"></svg>",
+          "name" : "svg 64x64",
+          "scope" : "editor",
+          "trigger" : "vg-64",
+        },
+        {
+          "content" : "<svg viewBox=\"0 0 32 32\"></svg>",
+          "name" : "svg 32x32",
+          "scope" : "editor",
+          "trigger" : "vg-32",
+        },
+        {
+          "content" : "<svg viewBox=\"0 0 24 24\"></svg>",
+          "name" : "svg 24x24",
+          "scope" : "editor",
+          "trigger" : "vg-24",
+        },
+
+        {
+          "content" : "<svg id=\"${:viewId}\" viewBox=\"${:x} ${:y} ${:width} ${:height}\"></svg>",
+          "name" : "view",
+          "scope" : "editor",
+          "trigger" : "vg-view",
+        },
+
+        {
+          "content" : "<defs>${:definitions}</defs>",
+          "name" : "defs",
+          "scope" : "editor",
+          "trigger" : "vg-defs",
+        },
+        {
+          "content" : "<g transform=\"translate(0,0) rotate(0 0 0) scale(1,1)\">${:shapes}</g>",
+          "name" : "group",
+          "description" : "Group element with transform attribute",
+          "scope" : "editor",
+          "trigger" : "vg-grou",
+        },
+
+        {
+          "content" : "<symbol id=\"${:symbolId}\" width=\"${:width}\" height=\"${:height}\" viewbox=\"${:x} ${:y} ${:width} ${:height}\">${:shapes…}</symbol>",
+          "name" : "symbol",
+          "scope" : "editor",
+          "trigger" : "vg-symb",
+        },
+        {
+          "content" : "<use href=\"#${:symbolId}\" x=\"${:x}\" y=\"${:y}\" />",
+          "name" : "use symbol",
+          "scope" : "editor",
+          "trigger" : "vg-ussy",
+        },
+        {
+          "content" : "<use xlink:href=\"#${:elementToCloneId}\" x=\"${:x}\" y=\"${:y}\" />",
+          "name" : "use element",
+          "scope" : "editor",
+          "trigger" : "vg-usel",
+        },
+
+        {
+          "content" : "<desc>${:a description}</desc>",
+          "name" : "description",
+          "description" : "+ Accessibility",
+          "scope" : "editor",
+          "trigger" : "vg-desc",
+        },
+
+        {
+          "content" : "<title>${:a description}</title>",
+          "name" : "title",
+          "description" : "+ Accessibility",
+          "scope" : "editor",
+          "trigger" : "vg-titl",
+        },
+
+      ]
+    },
+
+
+    {
+      "name" : "Shapes",
+      "children" : [
+        {
+          "content" : "<circle cx=\"${:cx}\" cy=\"${:cy}\" r=\"${:r}\"></circle>",
+          "name" : "circle",
+          "scope" : "editor",
+          "trigger" : "vg-circ"
+        },
+        {
+          "content" : "<ellipse cx=\"${:cx}\" cy=\"${:cy}\" rx=\"${:rx}\" ry=\"${:ry}\"></ellipse>",
+          "name" : "ellipse",
+          "scope" : "editor",
+          "trigger" : "vg-elli"
+        },
+        {
+          "content" : "<rect x=\"${:x}\" y=\"${:y}\" width=\"${:width}\" height=\"${:height}\"></rect>",
+          "name" : "rect",
+          "scope" : "editor",
+          "trigger" : "vg-rect"
+        },
+        {
+          "content" : "<rect x=\"${:x}\" y=\"${:y}\" width=\"${:width}\" height=\"${:height}\" rx=\"${:rx}\"></rect>",
+          "name" : "round rect",
+          "scope" : "editor",
+          "trigger" : "vg-recr"
+        },
+        {
+          "content" : "<polygon points=\"${:points}\" fill-rule=\"${:evenodd}${:nonzero}\"></polygon>",
+          "name" : "polygon",
+          "scope" : "editor",
+          "trigger" : "vg-poly"
+        },
+        {
+          "content" : "<line x1=\"${:x1}\" y1=\"${:y1}\" x2=\"${:x2}\" y2=\"${:y2}\"></line>",
+          "name" : "line",
+          "scope" : "editor",
+          "trigger" : "vg-line"
+        },
+        {
+          "content" : "<polyline points=\"${:points}\"></polyline>",
+          "name" : "polyline",
+          "scope" : "editor",
+          "trigger" : "vg-poli"
+        },
+        {
+          "content" : "<path d=\"${:path}\" fill-rule=\"${:evenodd}${:nonzero}\"></path>",
+          "name" : "path",
+          "scope" : "editor",
+          "trigger" : "vg-path"
+        },
+
+
+        {
+          "content" : "<text x=\"${:x}\" y=\"${:y}\" dx=\"${:dx}\" dy=\"${:dy}\" text-anchor=\"${:start}${:middle}${:end}\" font-size=\"12\">${:text}</text>",
+          "name" : "text",
+          "scope" : "editor",
+          "trigger" : "vg-text",
+        },
+        {
+          "content" : "<text><textPath href=\"#${:pathId}\">${:a text along a path}</textPath></text>",
+          "name" : "text path",
+          "scope" : "editor",
+          "trigger" : "vg-txtp",
+        },
+
+        {
+          "content" : "<tspan x=\"${:x}\" y=\"${:y}\">${:text}</tspan>",
+          "name" : "tspan",
+          "scope" : "editor",
+          "trigger" : "vg-tspn",
+        },
+        {
+          "content" : "<image xlink:href=\"${:url}\" x=\"${:x}\" y=\"${:y}\" width=\"${:width}\" height=\"${:height}\" />",
+          "name" : "image",
+          "scope" : "editor",
+          "trigger" : "vg-imag",
+        },
+      ]
+    },
+
+
+    {
+      "name" : "Styling",
+      "children" : [
+        {
+          "content" : "fill=\"${:color}\" ",
+          "name" : "fill",
+          "scope" : "editor",
+          "trigger" : "vg-fill"
+        },
+        {
+          "content" : "fill-rule=\"${:evenodd}${:nonzero}\" ",
+          "name" : "fill-rule",
+          "scope" : "editor",
+          "trigger" : "vg-filr"
+        },
+        {
+          "content" : "fill-opacity=\"1.0\" ",
+          "name" : "fill-opacity",
+          "scope" : "editor",
+          "trigger" : "vg-fopa"
+        },
+        {
+          "content" : "stroke=\"${:color}\" ",
+          "name" : "stroke",
+          "scope" : "editor",
+          "trigger" : "vg-strk"
+        },
+        {
+          "content" : "stroke-width=\"1\" ",
+          "name" : "stroke-width",
+          "scope" : "editor",
+          "trigger" : "vg-swid"
+        },
+        {
+          "content" : "stroke-opacity=\"1.0\" ",
+          "name" : "stroke-opacity",
+          "scope" : "editor",
+          "trigger" : "vg-sopa"
+        },
+        {
+          "content" : "stroke-linecap=\"${:butt}${:round}${:square}\" ",
+          "name" : "stroke-linecap",
+          "scope" : "editor",
+          "trigger" : "vg-slic"
+        },
+        {
+          "content" : "stroke-linejoin=\"${:miter}${:round}${:bevel}\" ",
+          "name" : "stroke-linejoin",
+          "scope" : "editor",
+          "trigger" : "vg-slij"
+        },
+        {
+          "content" : "stroke-miterlimit=\"${:miter}${:round}${:bevel}\" ",
+          "name" : "stroke-miterlimit",
+          "scope" : "editor",
+          "trigger" : "vg-mitl"
+        },
+        {
+          "content" : "stroke-dasharray=\"4,4\" ",
+          "name" : "stroke-dasharray",
+          "scope" : "editor",
+          "trigger" : "vg-sdar"
+        },
+        {
+          "content" : "stroke-dashoffset=\"0\" ",
+          "name" : "stroke-dashoffset",
+          "scope" : "editor",
+          "trigger" : "vg-sdof"
+        },
+        {
+          "content" : "pathLength=\"auto\" ",
+          "name" : "pathLength",
+          "scope" : "editor",
+          "trigger" : "vg-plng"
+        },
+
+      ]
+    },
+    
+    
+    {
+      "name" : "Transform",
+      "children" : [
+        {
+          "content" : "transform=\"translate(${:x}, ${:y})\" ",
+          "name" : "translate",
+          "scope" : "editor",
+          "trigger" : "vg-tran"
+        },
+        {
+          "content" : "transform=\"rotate(${:0} ${:x} ${:y})\" ",
+          "name" : "rotate",
+          "scope" : "editor",
+          "trigger" : "vg-trot"
+        },
+        {
+          "content" : "transform=\"scale(${:x}, ${:y})\" ",
+          "name" : "scale",
+          "scope" : "editor",
+          "trigger" : "vg-tsca"
+        },
+        {
+          "content" : "transform=\"skewX(0)\" ",
+          "name" : "skewX",
+          "scope" : "editor",
+          "trigger" : "vg-tskx"
+        },
+        {
+          "content" : "transform=\"skewY(0)\" ",
+          "name" : "skewY",
+          "scope" : "editor",
+          "trigger" : "vg-tsky"
+        },
+      ]
+    },
+
+
+    {
+      "name" : "Advanced",
+      "children" : [
+        {
+          "content" : "<linearGradient id=\"${:gradientId}\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">${:stop-collection}</linearGradient>",
+          "name" : "linear gradient",
+          "description" : "Gradient",
+          "scope" : "editor",
+          "trigger" : "vg-ling",
+        },
+        {
+          "content" : "<radialGradient id=\"${:gradientId}\" cx=\"50%\" cy=\"50%\" r=\"50%\" fx=\"50%\" fy=\"50%\" fr=\"50%\" \">${:stop-collection}</radialGradient>",
+          "name" : "radial gradient",
+          "description" : "Gradient",
+          "scope" : "editor",
+          "trigger" : "vg-radg",
+        },
+        {
+          "content" : "<stop offset=\"${:offset}%\" stop-color=\"${:color}\" stop-opacity=\"1.0\" />",
+          "name" : "stop",
+          "description" : "Gradient",
+          "scope" : "editor",
+          "trigger" : "vg-stop",
+        },
+        {
+          "content" : "gradientUnits=\"${:userSpaceOnUse}${:objectBoundingBox}\" ",
+          "name" : "gradient units",
+          "description" : "Gradient",
+          "scope" : "editor",
+          "trigger" : "vg-guni",
+        },
+        {
+          "content" : "gradientTransform=\"translate(0,0) rotate(0) scale(1,1)\" ",
+          "name" : "gradient transform",
+          "description" : "Gradient",
+          "scope" : "editor",
+          "trigger" : "vg-gtra",
+        },
+        {
+          "content" : "fill=\"url(#${:gradientId})\" ",
+          "name" : "fill with gradient",
+          "description" : "Gradient",
+          "scope" : "editor",
+          "trigger" : "vg-fgra"
+        },
+        {
+          "content" : "stroke=\"url(#${:gradientId})\" ",
+          "name" : "stroke with gradient",
+          "description" : "Gradient",
+          "scope" : "editor",
+          "trigger" : "vg-sgra"
+        },
+
+        {
+          "content" : "<pattern id=\"${:patternId}\" x=\"${:x}\" y=\"${:y}\" width=\"${:width}\" height=\"${:height}\" patternUnits=\"userSpaceOnUse\">${:shapes…}</pattern>",
+          "name" : "pattern",
+          "description" : "Pattern",
+          "scope" : "editor",
+          "trigger" : "vg-patt"
+        },
+        {
+          "content" : "patternUnits=\"${:userSpaceOnUse}${:objectBoundingBox}\" ",
+          "name" : "patternUnits",
+          "description" : "Pattern",
+          "scope" : "editor",
+          "trigger" : "vg-puni"
+        },
+        {
+          "content" : "patternContentUnits=\"${:userSpaceOnUse}${:objectBoundingBox}\" ",
+          "name" : "patternContentUnits",
+          "description" : "Pattern",
+          "scope" : "editor",
+          "trigger" : "vg-pcon"
+        },
+        {
+          "content" : "patternTransform=\"translate(0,0) rotate(0) scale(1,1)\" ",
+          "name" : "patternTransform",
+          "description" : "Pattern",
+          "scope" : "editor",
+          "trigger" : "vg-ptra"
+        },
+        {
+          "content" : "fill=\"url(#${:patternId})\" ",
+          "name" : "fill with pattern",
+          "description" : "Pattern",
+          "scope" : "editor",
+          "trigger" : "vg-fpat"
+        },
+        {
+          "content" : "stroke=\"url(#${:patternId})\" ",
+          "name" : "stroke with pattern",
+          "description" : "Pattern",
+          "scope" : "editor",
+          "trigger" : "vg-spat"
+        },
+
+        {
+          "content" : "<mask id=\"${:maskId}\" maskContentUnits=\"${:userSpaceOnUse}${:objectBoundingBox}\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/>${:shapes…}</mask>",
+          "name" : "mask definition",
+          "description" : "Mask",
+          "scope" : "editor",
+          "trigger" : "vg-mask",
+        },
+        {
+          "content" : "mask=\"url(#${:maskId})\" ",
+          "name" : "mask a shape",
+          "description" : "Mask",
+          "scope" : "editor",
+          "trigger" : "vg-fmsk"
+        },
+
+        {
+          "content" : "<clipPath id=\"${:clipPathId}\" clipPathUnits=\"${:userSpaceOnUse}${:objectBoundingBox}\">${:shapes…}</clipPath>",
+          "name" : "clip",
+          "description" : "Clip",
+          "scope" : "editor",
+          "trigger" : "vg-clip",
+        },
+        {
+          "content" : "clip-path=\"url(#${:clipPathId})\" ",
+          "name" : "clip-path a shape",
+          "description" : "Clip",
+          "scope" : "editor",
+          "trigger" : "vg-fcli"
+        },
+        {
+          "content" : "clip-rule=\"${:nonzero}${:evenodd}\" ",
+          "name" : "clip-rule",
+          "description" : "Clip",
+          "scope" : "editor",
+          "trigger" : "vg-crul"
+        },
+        {
+          "content" : "clipPathUnits=\"${:userSpaceOnUse}${:objectBoundingBox}\" ",
+          "name" : "clipPathUnits",
+          "description" : "Clip",
+          "scope" : "editor",
+          "trigger" : "vg-cpun"
+        },
+
+        {
+          "content" : "<marker id=\"${:markerid}\" viewBox=\"0 0 8 8\" refX=\"${:refX}\" refY=\"${:refY}\" markerWidth=\"${:markerWidth}\" markerHeight=\"${:markerHeight}\" orient=\"auto-start-reverse\">${:shapes…}</marker>",
+          "name" : "marker",
+          "description" : "Marker",
+          "scope" : "editor",
+          "trigger" : "vg-mark",
+        },
+        {
+          "content" : "marker-start=\"url(#${:markerid})\" ",
+          "name" : "marker-start",
+          "description" : "Marker",
+          "scope" : "editor",
+          "trigger" : "vg-mstt"
+        },
+        {
+          "content" : "marker-mid=\"url(#${:markerid})\" ",
+          "name" : "marker-mid",
+          "description" : "Marker",
+          "scope" : "editor",
+          "trigger" : "vg-mmid"
+        },
+        {
+          "content" : "marker-end=\"url(#${:markerid})\" ",
+          "name" : "marker-end",
+          "description" : "Marker",
+          "scope" : "editor",
+          "trigger" : "vg-mend"
+        },
+
+      ]
+    },
+
+
+    {
+      "name" : "Animate",
+      "children" : [
+        {
+          "content" : "<animate attributeName=\"${:attributeName}\" values=\"${:value};${:value};${:value}\" dur=\"${:duration}s\" repeatCount=\"indefinite\"/>",
+          "name" : "animate attribute",
+          "scope" : "editor",
+          "trigger" : "vg-aatr",
+        },
+        {
+          "content" : "<animateTransform attributeName=\"transform\" type=\"${:translate(0,0)} ${:rotate(0 0 0)} ${:scale(1,1)}\" values=\"${:value};${:value};${:value}\" dur=\"${:duration}s\" repeatCount=\"indefinite\"/>",
+          "name" : "animate transform",
+          "scope" : "editor",
+          "trigger" : "vg-atra",
+        },
+        {
+          "content" : "<animateMotion path=\"${:path definition}\" dur=\"${:duration}s\" repeatCount=\"indefinite\" rotate=\"${:0}${:auto}\"/>",
+          "name" : "animate motion",
+          "scope" : "editor",
+          "trigger" : "vg-amot",
+        },
+        {
+          "content" : "<animateMotion dur=\"${:duration}s\" repeatCount=\"indefinite\" rotate=\"${:0}${:auto}\"><mpath href=\"#${:pathId}s\" /></animateMotion>",
+          "name" : "motion path",
+          "scope" : "editor",
+          "trigger" : "vg-amop",
+        },
+        
+        {
+          "content" :"<set attributeName=\"${:attributeName}\" to=\"${:toValue}s\" begin=\"${:me.click}\" dur=\"${:2s}\"/>",
+          "name" : "set",
+          "scope" : "editor",
+          "trigger" : "vg-aset",
+        },
+
+        {
+          "content" : "from=\"${:from}\" to=\"${:to}\" ",
+          "name" : "from / to - svg anim",
+          "description" : "2 attributes for 2 stepped animation",
+          "scope" : "editor",
+          "trigger" : "vg-afto",
+        },
+        {
+          "content" : "values=\"${:value};${:value};${:value}\" ",
+          "name" : "values - svg anim",
+          "scope" : "editor",
+          "trigger" : "vg-aval",
+        },
+
+        {
+          "content" : "begin=\"${:0}s\" ",
+          "name" : "begin - svg anim",
+          "scope" : "editor",
+          "trigger" : "vg-abeg",
+        },
+        {
+          "content" : "keyPoints=\"0;0.5;1\" ",
+          "name" : "keyPoints - svg anim",
+          "scope" : "editor",
+          "trigger" : "vg-akpo",
+        },
+        {
+          "content" : "keyTimes=\"0;0.5;1\" ",
+          "name" : "keyTimes - svg anim",
+          "scope" : "editor",
+          "trigger" : "vg-akti",
+        },
+        {
+          "content" : "keySplines=\"${:keySplines}\" calcMode=\"spline\" ",
+          "name" : "keySplines - svg anim",
+          "scope" : "editor",
+          "trigger" : "vg-aksp",
+        },
+        {
+          "content" : "calcMode=\"${:linear}${:discrete}${:paced}${:spline}\" ",
+          "name" : "calcMode - svg anim",
+          "scope" : "editor",
+          "trigger" : "vg-acal",
+        },
+
+        {
+          "content" : "accumulate=\"${:none}${:sum}\" ",
+          "name" : "accumulate - svg anim",
+          "scope" : "editor",
+          "trigger" : "vg-acum",
+        },
+        {
+          "content" : "additive=\"${:replace}${:sum}\" ",
+          "name" : "additive - svg anim",
+          "scope" : "editor",
+          "trigger" : "vg-adit",
+        },
+
+      ]
+    },
+
+
+    {
+      "name" : "Examples",
+      "children" : [
+        {
+          "content" : "<!-- Svg Lines | Grids -->\n\n<svg\nxmlns:xlink=\"http://www.w3.org/1999/xlink\"\nxmlns=\"http://www.w3.org/2000/svg\"\nviewBox=\"0 0 384 384\"\n>\n\n\n    <defs>\n\n        <pattern id=\"svgrid16\" x=\"0\" y=\"0\" width=\"16\" height=\"16\" patternUnits=\"userSpaceOnUse\">\n            <rect x=\"0\" y=\"0\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.25\" />\n        </pattern>\n\n        <pattern id=\"svgrid8\" x=\"0\" y=\"0\" width=\"8\" height=\"8\" patternUnits=\"userSpaceOnUse\">\n            <rect x=\"0\" y=\"0\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.25\" />\n        </pattern>\n\n        <pattern id=\"svgrid4\" x=\"0\" y=\"0\" width=\"4\" height=\"4\" patternUnits=\"userSpaceOnUse\">\n            <rect x=\"0\" y=\"0\" width=\"4\" height=\"4\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.25\" />\n        </pattern>\n\n        <pattern id=\"svgrid2\" x=\"0\" y=\"0\" width=\"2\" height=\"2\" patternUnits=\"userSpaceOnUse\">\n            <rect x=\"0\" y=\"0\" width=\"2\" height=\"2\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.25\" />\n        </pattern>\n\n\n\n        <pattern id=\"circleGrid\" x=\"0\" y=\"0\" width=\"8\" height=\"8\" patternUnits=\"userSpaceOnUse\">\n            <circle cx=\"4\" cy=\"4\" r=\"4\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.5\" />\n        </pattern>\n\n        <pattern id=\"isomGrid\" x=\"50%\" y=\"50%\" width=\"14\" height=\"8\" patternUnits=\"userSpaceOnUse\">\n            <path d=\"M0 4 l7 -4 l7 4 l-7 4z\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.5\" />\n        </pattern>\n\n        <pattern id=\"circleIsomGrid\" x=\"50%\" y=\"50%\" width=\"14\" height=\"8\" patternUnits=\"userSpaceOnUse\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.5\">\n            <circle cx=\"7\" cy=\"4\" r=\"3\" />\n            <circle cx=\"0\" cy=\"0\" r=\"3\" />\n            <circle cx=\"14\" cy=\"0\" r=\"3\" />\n            <circle cx=\"0\" cy=\"8\" r=\"3\" />\n            <circle cx=\"14\" cy=\"8\" r=\"3\" />\n        </pattern>\n\n        <pattern id=\"ellipsIsomGrid\" x=\"50%\" y=\"50%\" width=\"14\" height=\"8\" patternUnits=\"userSpaceOnUse\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.5\">\n            <ellipse cx=\"7\" cy=\"4\" rx=\"3.5\" ry=\"2\" />\n            <ellipse cx=\"0\" cy=\"0\" rx=\"3.5\" ry=\"2\" />\n            <ellipse cx=\"14\" cy=\"0\" rx=\"3.5\" ry=\"2\" />\n            <ellipse cx=\"0\" cy=\"8\" rx=\"3.5\" ry=\"2\" />\n            <ellipse cx=\"14\" cy=\"8\" rx=\"3.5\" ry=\"2\" />\n        </pattern>\n\n    </defs>\n\n\n\n\n    <!-- GRID 16x16 -->\n    <rect x=\"0\" y=\"0\" width=\"128\" height=\"128\" fill=\"url(#svgrid16)\" />\n\n    <!-- GRID 8x8 -->\n    <rect x=\"128\" y=\"0\" width=\"128\" height=\"128\" fill=\"url(#svgrid8)\" />\n\n    <!-- GRID 4x4 -->\n    <rect x=\"256\" y=\"0\" width=\"128\" height=\"128\" fill=\"url(#svgrid4)\" />\n\n    <!-- GRID 2x2 -->\n    <rect x=\"0\" y=\"128\" width=\"128\" height=\"128\" fill=\"url(#svgrid2)\" />\n\n    <!-- GRID 16x16 + 8x8 + 2x2 -->\n    <rect x=\"128\" y=\"128\" width=\"128\" height=\"128\" fill=\"url(#svgrid16)\" fill-opacity=\"1\" />\n    <rect x=\"128\" y=\"128\" width=\"128\" height=\"128\" fill=\"url(#svgrid8)\" fill-opacity=\"0.75\" />\n    <rect x=\"128\" y=\"128\" width=\"128\" height=\"128\" fill=\"url(#svgrid2)\" fill-opacity=\"0.5\" />\n\n\n\n\n    <!-- CIRCLE GRID 8x8 -->\n    <rect x=\"256\" y=\"128\" width=\"128\" height=\"128\" fill=\"url(#circleGrid)\" />\n\n    <!-- ISO GRID 14x8 -->\n    <rect x=\"0\" y=\"256\" width=\"128\" height=\"128\" fill=\"url(#isomGrid)\" />\n\n    <!-- ISO CIRCLE GRID 14x8 -->\n    <rect x=\"128\" y=\"256\" width=\"128\" height=\"128\" fill=\"url(#circleIsomGrid)\" />\n\n    <!-- ISO ELLIPSE GRID 14x8 -->\n    <rect x=\"256\" y=\"256\" width=\"128\" height=\"128\" fill=\"url(#ellipsIsomGrid)\" />\n\n</svg>",
+          "name" : "example 0 - Grids",
+          "description" : "_",
+          "scope" : "editor",
+          "trigger" : "vg-x0",
+        },
+        {
+          "content" : "<!-- Svg Lines | Shapes -->\n\n<svg\nxmlns:xlink=\"http://www.w3.org/1999/xlink\"\nxmlns=\"http://www.w3.org/2000/svg\"\nviewBox=\"0 0 384 384\"\n>\n\n\n\n\n    <!-- CIRCLE / ELLIPSE -->\n    <g transform=\"translate(0,0)\">\n        <circle cx=\"32\" cy=\"64\" r=\"24\"/>\n        <ellipse cx=\"72\" cy=\"64\" rx=\"12\" ry=\"24\"/>\n        <ellipse cx=\"96\" cy=\"64\" rx=\"6\" ry=\"24\"/>\n        <ellipse cx=\"112\" cy=\"64\" rx=\"3\" ry=\"24\"/>\n    </g>\n\n\n    <!-- RECT -->\n    <g transform=\"translate(128,0)\">\n        <rect x=\"24\" y=\"24\" width=\"32\" height=\"32\"/>\n        <rect x=\"64\" y=\"24\" width=\"40\" height=\"32\" rx=\"3\"/>\n        <rect x=\"24\" y=\"64\" width=\"32\" height=\"40\" rx=\"6\"/>\n        <rect x=\"64\" y=\"64\" width=\"40\" height=\"40\" rx=\"12\"/>\n    </g>\n\n\n    <!-- POLYGON 1 -->\n    <g transform=\"translate(256,0)\">\n        <polygon points=\"24, 24 104,24 24,104\"/>\n        <polygon points=\"104,32 104,104 68,68\"/>\n        <polygon points=\"64,104 64,72 96,104\"/>\n        <polygon points=\"32,104 58,78 58,104\"/>\n    </g>\n\n\n    <!-- POLYGON 2 -->\n    <g transform=\"translate(0,128)\">\n        <polygon class=\"random-polygon\" points=\"40,96,16,101,93,18,34,50,75,59,59,110,19,81,88,49,78,91,46,90,103,108,92,16\" fill-rule=\"nonzero\"/>\n    </g>\n\n\n    <!-- TEXT -->\n    <g transform=\"translate(128,128)\" font-family=\"sans-serif\">\n        <text x=\"64\" y=\"32\" text-anchor=\"middle\" font-size=\"12.7\">circle, ellipse</text>\n        <text x=\"64\" y=\"44\" text-anchor=\"middle\" font-size=\"9.4\">square, rectangle</text>\n        <text x=\"64\" y=\"64\" text-anchor=\"middle\" font-size=\"21.1\">polygon</text>\n        <text x=\"64\" y=\"108\" text-anchor=\"middle\" font-size=\"50.25\">line</text>\n    </g>\n\n\n    <!-- LINE -->\n    <g transform=\"translate(256,128)\" stroke=\"black\" stroke-width=\"3\">\n        <line x1=\"24\" y1=\"32\" x2=\"104\" y2=\"32\"/>\n        <line x1=\"24\" y1=\"56\" x2=\"104\" y2=\"40\"/>\n        <line x1=\"24\" y1=\"80\" x2=\"104\" y2=\"48\"/>\n        <line x1=\"24\" y1=\"88\" x2=\"104\" y2=\"72\"/>\n        <line x1=\"24\" y1=\"96\" x2=\"104\" y2=\"96\"/>\n    </g>\n\n\n    <!-- POLYLINE -->\n    <g transform=\"translate(0,256)\">\n        <polyline points=\"16,96 32,80 40,88 48,72 56,72 64,64 72,40 80,56 96,48 112,24\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/>\n    </g>\n\n\n    <!-- PATH -->\n    <g transform=\"translate(128,256)\" stroke=\"black\" fill=\"none\" stroke-width=\"3\" stroke-linecap=\"butt\">\n        <path d=\"M24 24 h8 v8 h8 v-8 h8 v8 h8 v-8 h8 v8 h8 v-8 h8 v8 h8 v-8 h8 v8 h8 v-8 h1.5\"/>\n        <path d=\"M24 50 l16 -8 v8 l16 -8 v8 l16 -8 v8 l16 -8 v8 l16 -8 v8\"/>\n        <path d=\"M24 68 a 8 8 0 0 1 16 0 a 8 8 0 0 1 16 0 a 8 8 0 0 1 16 0 a 8 8 0 0 1 16 0 a 8 8 0 0 1 16 0\"/>\n        <path d=\"M24 80 q 20 -8 40 0 q 20  8 40 0\"/>\n        <path d=\"M24 96 c10 -8 10 8 20 0 c10 -8 10 8 20 0 c10 -8 10 8 20 0 c10 -8 10 8 20 0 \"/>\n    </g>\n\n\n    <!-- POLYGON 3 -->\n    <g transform=\"translate(256,256)\">\n        <polygon class=\"random-polygon\" points=\"40,96,16,101,93,18,34,50,75,59,59,110,19,81,88,49,78,91,46,90,103,108,92,16\" fill-rule=\"evenodd\"/>\n    </g>\n\n\n\n\n</svg>",
+          "name" : "example 1 - Shapes",
+          "scope" : "editor",
+          "trigger" : "vg-x1",
+        },
+        {
+          "content" : "<!-- Svg Lines | Paths -->\n\n<svg\nxmlns:xlink=\"http://www.w3.org/1999/xlink\"\nxmlns=\"http://www.w3.org/2000/svg\"\nviewBox=\"0 0 512 512\"\n>\n\n\n    <style>\n\npath { fill: none; stroke: dodgerblue; stroke-width: 1 }\ncircle { fill: dodgerblue; r: 2px; }\n\n    </style>\n\n\n\n\n    <g transform=\"translate(0,0)\">\n        <path d=\"M32 32 h64 v64 h-64\"/>\n        <circle cx=\"32\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"96\"/>\n    </g>\n\n    <g transform=\"translate(128,0)\">\n        <path d=\"M32 32 h64 v64 h-64z\"/>\n        <circle cx=\"32\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"96\"/>\n    </g>\n\n    <g transform=\"translate(256,0)\">\n        <path d=\"M48 32 h32 v16 h16 v32 h-16 v16 h-32 v-16 h-16 v-32 h16z\"/>\n        <circle cx=\"48\" cy=\"32\"/>\n        <circle cx=\"80\" cy=\"32\"/>\n        <circle cx=\"80\" cy=\"48\"/>\n        <circle cx=\"96\" cy=\"48\"/>\n        <circle cx=\"96\" cy=\"80\"/>\n        <circle cx=\"80\" cy=\"80\"/>\n        <circle cx=\"80\" cy=\"96\"/>\n        <circle cx=\"48\" cy=\"96\"/>\n        <circle cx=\"48\" cy=\"80\"/>\n        <circle cx=\"32\" cy=\"80\"/>\n        <circle cx=\"32\" cy=\"48\"/>\n        <circle cx=\"48\" cy=\"48\"/>\n        <circle cx=\"48\" cy=\"48\"/>\n    </g>\n\n    <g transform=\"translate(384,0)\">\n        <path d=\"M48 32 h32 l16 16 v32 l-16 16 h-32 l-16-16 v-32z\"/>\n        <circle cx=\"48\" cy=\"32\"/>\n        <circle cx=\"80\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"48\"/>\n        <circle cx=\"96\" cy=\"80\"/>\n        <circle cx=\"80\" cy=\"96\"/>\n        <circle cx=\"48\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"80\"/>\n        <circle cx=\"32\" cy=\"48\"/>\n        <circle cx=\"32\" cy=\"48\"/>\n    </g>\n\n\n\n\n    <g transform=\"translate(0,128)\">\n        <path d=\"M64 32 l32 32 l-32 32 l-32-32z\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"64\"/>\n        <circle cx=\"64\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"64\"/>\n        <circle cx=\"32\" cy=\"64\"/>\n    </g>\n\n    <g transform=\"translate(128,128)\">\n        <path d=\"M64 96 a32 32 0 1 1 32-32 h-32z\"/>\n        <circle cx=\"64\" cy=\"96\"/>\n        <circle cx=\"96\" cy=\"64\"/>\n        <circle cx=\"64\" cy=\"64\"/>\n        <circle cx=\"64\" cy=\"64\"/>\n    </g>\n\n    <g transform=\"translate(256,128)\">\n        <path d=\"M32 32 a 64 64 0 0 1 64 64 h-64z\"/>\n        <circle cx=\"32\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"96\"/>\n    </g>\n\n    <g transform=\"translate(384,128)\">\n        <path d=\"M32 32 a 64 64 0 0 0 64 64 h-64z\"/>\n        <circle cx=\"32\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"96\"/>\n    </g>\n\n\n\n\n    <g transform=\"translate(0,256)\">\n        <path d=\"M32 64 a32 32 0 0 0 32-32 a32 32 0 0 0 32 32 a32 32 0 0 0-32 32 a32 32 0 0 0-32-32z\"/>\n        <circle cx=\"32\" cy=\"64\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"64\"/>\n        <circle cx=\"64\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"64\"/>\n        <circle cx=\"32\" cy=\"64\"/>\n    </g>\n\n    <g transform=\"translate(128,256)\">\n        <path d=\"M64 32 a32 32 0 0 1 0 64 a16 16 0 0 0 0-32 a16 16 0 0 1 0-32z\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n        <circle cx=\"64\" cy=\"96\"/>\n        <circle cx=\"64\" cy=\"64\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n    </g>\n\n    <g transform=\"translate(256,256)\">\n        <path d=\"M43 40 a32 32 0 1 1 0 48 a25 25 0 1 0 0-48z\"/>\n        <circle cx=\"43\" cy=\"40\"/>\n        <circle cx=\"43\" cy=\"88\"/>\n        <circle cx=\"43\" cy=\"40\"/>\n        <circle cx=\"43\" cy=\"40\"/>\n    </g>\n\n    <g transform=\"translate(384,256)\">\n        <path d=\"M64 24 l23.5 72.25 l-61.5-44.5 h76 l-61.5 44.5z\"/>\n        <circle cx=\"64\" cy=\"24\"/>\n        <circle cx=\"87.5\" cy=\"96.25\"/>\n        <circle cx=\"26\" cy=\"51.75\"/>\n        <circle cx=\"102\" cy=\"51.75\"/>\n        <circle cx=\"40.5\" cy=\"96.25\"/>\n        <circle cx=\"40.5\" cy=\"96.25\"/>\n    </g>\n\n\n\n\n    <g transform=\"translate(0,384)\">\n        <path d=\"M32 32 c0 32 64 32 64 64 h-64 c0-32 64-32 64-64z\"/>\n        <circle cx=\"32\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"96\"/>\n        <circle cx=\"96\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"32\"/>\n    </g>\n\n    <g transform=\"translate(128,384)\">\n        <path d=\"M32 64 a32 32 0 0 0 32-32 a32 32 0 0 1 32 32 a32 32 0 0 0-32 32 a32 32 0 0 1-32-32z\"/>\n        <circle cx=\"32\" cy=\"64\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n        <circle cx=\"96\" cy=\"64\"/>\n        <circle cx=\"64\" cy=\"96\"/>\n        <circle cx=\"32\" cy=\"64\"/>\n        <circle cx=\"32\" cy=\"64\"/>\n    </g>\n\n    <g transform=\"translate(256,384)\">\n        <path d=\"M64 32 c0 20 24 20 24 40 a24 24 0 0 1-48 0 c0-20 24-20 24-40z\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n        <circle cx=\"88\" cy=\"72\"/>\n        <circle cx=\"40\" cy=\"72\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n    </g>\n\n    <g transform=\"translate(384,384)\">\n        <path d=\"M64 32 a32 32 0 0 1 0 64 a32 32 0 0 1 0-64 m0 8 a12 24 0 0 1 0 48 a12 24 0 0 1 0-48z\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n        <circle cx=\"64\" cy=\"96\"/>\n        <circle cx=\"64\" cy=\"32\"/>\n        <circle cx=\"64\" cy=\"40\"/>\n        <circle cx=\"64\" cy=\"88\"/>\n        <circle cx=\"64\" cy=\"40\"/>\n        <circle cx=\"64\" cy=\"40\"/>\n    </g>\n\n\n\n\n</svg>",
+          "name" : "example 2 - Paths",
+          "scope" : "editor",
+          "trigger" : "vg-x2",
+        },
+        {
+          "content" : "<!-- Svg Lines | Styling -->\n\n<svg\nxmlns:xlink=\"http://www.w3.org/1999/xlink\"\nxmlns=\"http://www.w3.org/2000/svg\"\nviewBox=\"0 0 384 384\"\n>\n\n\n\n\n    <!-- FILL -->\n    <g transform=\"translate(0,0)\">\n\n        <circle cx=\"32\" cy=\"32\" r=\"12\" fill=\"coral\"/>\n        <circle cx=\"64\" cy=\"32\" r=\"12\" fill=\"royalBlue\"/>\n        <circle cx=\"96\" cy=\"32\" r=\"12\" fill=\"mediumOrchid\"/>\n\n        <circle cx=\"32\" cy=\"64\" r=\"12\" fill=\"dodgerBlue\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"12\" fill=\"crimson\"/>\n        <circle cx=\"96\" cy=\"64\" r=\"12\" fill=\"DeepSkyBlue\"/>\n\n        <circle cx=\"32\" cy=\"96\" r=\"12\" fill=\"limegreen\"/>\n        <circle cx=\"64\" cy=\"96\" r=\"12\" fill=\"mediumPurple\"/>\n        <circle cx=\"96\" cy=\"96\" r=\"12\" fill=\"orange\"/>\n\n    </g>\n\n    <!-- STROKE -->\n    <g transform=\"translate(128,0)\">\n\n    <g fill=\"none\" stroke-width=\"4\">\n\n        <circle cx=\"32\" cy=\"32\" r=\"10\" stroke=\"coral\"/>\n        <circle cx=\"64\" cy=\"32\" r=\"10\" stroke=\"royalBlue\"/>\n        <circle cx=\"96\" cy=\"32\" r=\"10\" stroke=\"mediumOrchid\"/>\n\n        <circle cx=\"32\" cy=\"64\" r=\"10\" stroke=\"dodgerBlue\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"10\" stroke=\"crimson\"/>\n        <circle cx=\"96\" cy=\"64\" r=\"10\" stroke=\"DeepSkyBlue\"/>\n\n        <circle cx=\"32\" cy=\"96\" r=\"10\" stroke=\"limegreen\"/>\n        <circle cx=\"64\" cy=\"96\" r=\"10\" stroke=\"mediumPurple\"/>\n        <circle cx=\"96\" cy=\"96\" r=\"10\" stroke=\"orange\"/>\n\n    </g>\n\n    </g>\n\n\n\n\n    <!-- FILL-OPACITY -->\n    <g transform=\"translate(256,0)\">\n\n    <g fill=\"crimson\">\n        <circle cx=\"32\" cy=\"32\" r=\"12\" fill-opacity=\"1.0\"/>\n        <circle cx=\"48\" cy=\"32\" r=\"12\" fill-opacity=\"0.75\"/>\n        <circle cx=\"64\" cy=\"32\" r=\"12\" fill-opacity=\"0.5\"/>\n        <circle cx=\"80\" cy=\"32\" r=\"12\" fill-opacity=\"0.25\"/>\n        <circle cx=\"96\" cy=\"32\" r=\"12\" fill-opacity=\"0.1\"/>\n    </g>\n\n    <g fill=\"dodgerblue\">\n        <circle cx=\"32\" cy=\"96\" r=\"12\" fill-opacity=\"0.1\"/>\n        <circle cx=\"48\" cy=\"96\" r=\"12\" fill-opacity=\"0.25\"/>\n        <circle cx=\"64\" cy=\"96\" r=\"12\" fill-opacity=\"0.5\"/>\n        <circle cx=\"80\" cy=\"96\" r=\"12\" fill-opacity=\"0.75\"/>\n        <circle cx=\"96\" cy=\"96\" r=\"12\" fill-opacity=\"1.0\"/>\n    </g>\n\n    </g>\n\n    <!-- STROKE-OPACITY -->\n    <g transform=\"translate(0,128)\"  stroke-width=\"8\" stroke-linecap=\"round\">\n\n        <path d=\"M24 32 h80\" stroke=\"coral\"/>\n        <path d=\"M24 48 h80\" stroke=\"mediumOrchid\"/>\n        <path d=\"M24 64 h80\" stroke=\"crimson\"/>\n        <path d=\"M24 80 h80\" stroke=\"deepSkyBlue\"/>\n        <path d=\"M24 96 h80\" stroke=\"limegreen\"/>\n\n        <g stroke-opacity=\"0.5\">\n            <path d=\"M32 24 v80\" stroke=\"coral\"/>\n            <path d=\"M48 24 v80\" stroke=\"mediumOrchid\"/>\n            <path d=\"M64 24 v80\" stroke=\"crimson\"/>\n            <path d=\"M80 24 v80\" stroke=\"deepSkyBlue\"/>\n            <path d=\"M96 24 v80\" stroke=\"limegreen\"/>\n        </g>\n\n    </g>\n\n\n\n\n    <!-- STROKE-WIDTH -->\n    <g transform=\"translate(128,128)\"  stroke=\"black\">\n\n        <line x1=\"24\" y1=\"32\" x2=\"104\" y2=\"32\" stroke-width=\"1\"/>\n        <line x1=\"24\" y1=\"40\" x2=\"104\" y2=\"40\" stroke-width=\"2\"/>\n        <line x1=\"24\" y1=\"48\" x2=\"104\" y2=\"48\" stroke-width=\"4\"/>\n        <line x1=\"24\" y1=\"58\" x2=\"104\" y2=\"58\" stroke-width=\"8\"/>\n        <line x1=\"24\" y1=\"72\" x2=\"104\" y2=\"72\" stroke-width=\"16\"/>\n        <line x1=\"24\" y1=\"93\" x2=\"104\" y2=\"93\" stroke-width=\"24\"/>\n\n    </g>\n\n    <!-- STROKE-LINECAP -->\n    <g transform=\"translate(0,256)\" stroke=\"black\" stroke-width=\"12\">\n\n        <line x1=\"24\" y1=\"32\" x2=\"104\" y2=\"32\" stroke-linecap=\"butt\"/>\n        <line x1=\"24\" y1=\"64\" x2=\"104\" y2=\"64\" stroke-linecap=\"round\"/>\n        <line x1=\"24\" y1=\"96\" x2=\"104\" y2=\"96\" stroke-linecap=\"square\"/>\n\n    </g>\n\n    <!-- STROKE-LINEJOIN -->\n    <g transform=\"translate(128,256)\" stroke=\"black\" stroke-width=\"16\" fill=\"none\">\n\n        <path d=\"M24 24 l24 24 l32 -32 l24 24\" stroke-linejoin=\"miter\"/>\n        <path d=\"M24 56 l24 24 l32 -32 l24 24\" stroke-linejoin=\"round\"/>\n        <path d=\"M24 88 l24 24 l32 -32 l24 24\" stroke-linejoin=\"bevel\"/>\n\n    </g>\n\n    <!-- STROKE-DASHARRAY -->\n    <g transform=\"translate(256,128)\"  stroke=\"black\">\n\n        <g stroke-width=\"0.5\">\n            <path d=\"M24 24 h80\" stroke-dasharray=\"1, 3\"/>\n            <path d=\"M24 32 h80\" stroke-dasharray=\"2, 2\"/>\n            <path d=\"M24 40 h80\" stroke-dasharray=\"3, 1\"/>\n        </g>\n        <g stroke-width=\"8\">\n            <path d=\"M24 56 h80\" stroke-dasharray=\"1, 3\"/>\n            <path d=\"M24 64 h80\" stroke-dasharray=\"2, 2\"/>\n            <path d=\"M24 72 h80\" stroke-dasharray=\"3, 1\"/>\n        </g>\n        <g stroke-width=\"6\" stroke-linecap=\"round\">\n            <path d=\"M24 88 h80\" stroke-dasharray=\"0, 14\"/>\n            <path d=\"M24 96 h80\" stroke-dasharray=\"0, 7\"/>\n            <path d=\"M24 104 h80\" stroke-dasharray=\"7, 7\"/>\n        </g>\n\n    </g>\n\n\n\n\n    <!-- ? -->\n    <g transform=\"translate(256,256)\"></g>\n\n\n</svg>",
+          "name" : "example 3 - Styling",
+          "scope" : "editor",
+          "trigger" : "vg-x3",
+        },
+        {
+          "content" : "<!-- Svg Lines | Advanced -->\n\n<svg\nxmlns:xlink=\"http://www.w3.org/1999/xlink\"\nxmlns=\"http://www.w3.org/2000/svg\"\nviewBox=\"0 0 512 512\"\n>\n\n\n\n\n    <defs>\n\n\n        <linearGradient id=\"hotcold1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n            <stop offset=\"0%\" stop-color=\"crimson\"/>\n            <stop offset=\"100%\" stop-color=\"dodgerblue\"/>\n        </linearGradient>\n        <linearGradient id=\"hotcold2\" x1=\"0%\" y1=\"100%\" x2=\"0%\" y2=\"0%\">\n            <stop offset=\"0%\" stop-color=\"crimson\"/>\n            <stop offset=\"100%\" stop-color=\"dodgerblue\"/>\n        </linearGradient>\n        <linearGradient id=\"hotcold3\" x1=\"100%\" y1=\"0%\" x2=\"0%\" y2=\"0%\">\n            <stop offset=\"0%\" stop-color=\"crimson\"/>\n            <stop offset=\"100%\" stop-color=\"dodgerblue\"/>\n        </linearGradient>\n\n        <radialGradient id=\"hotcold4\" cx=\"50%\" cy=\"50%\" r=\"50%\" fx=\"50%\" fy=\"50%\">\n            <stop offset=\"0%\" stop-color=\"crimson\"/>\n            <stop offset=\"100%\" stop-color=\"dodgerblue\"/>\n        </radialGradient>\n        <radialGradient id=\"hotcold5\" cx=\"50%\" cy=\"50%\" r=\"50%\" fx=\"50%\" fy=\"50%\">\n            <stop offset=\"50%\" stop-color=\"crimson\"/>\n            <stop offset=\"70%\" stop-color=\"dodgerblue\"/>\n        </radialGradient>\n        <radialGradient id=\"hotcold6\" cx=\"50%\" cy=\"50%\" r=\"50%\" fx=\"80%\" fy=\"80%\">\n            <stop offset=\"50%\" stop-color=\"crimson\"/>\n            <stop offset=\"70%\" stop-color=\"dodgerblue\"/>\n        </radialGradient>\n\n\n        <pattern id=\"pattern1\" x=\"0\" y=\"0\" width=\"16\" height=\"16\" patternUnits=\"userSpaceOnUse\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/>\n        </pattern>\n        <pattern id=\"pattern2\" x=\"0\" y=\"0\" width=\"8\" height=\"8\" patternUnits=\"userSpaceOnUse\">\n            <circle cx=\"4\" cy=\"4\" r=\"3\" fill=\"white\"/>\n        </pattern>\n        <pattern id=\"pattern3\" x=\"0\" y=\"0\" width=\"16\" height=\"16\" patternUnits=\"userSpaceOnUse\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"url(#hotcold2)\"/>\n        </pattern>\n\n\n        <g id=\"unCercle\">\n            <circle r=\"16\" fill=\"url(#hotcold1)\"/>\n            <path d=\"M -8 0 a 8 8 0 0 0  8 -8 a 8 8 0 0 0  8  8 a 8 8 0 0 0 -8  8 a 8 8 0 0 0 -8 -8\" fill=\"white\"/>\n        </g>\n        <symbol id=\"unCercleSymbol\" width=\"32\" height=\"32\" viewbox=\"0 0 32 32\">\n            <circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"url(#hotcold1)\"/>\n            <path transform=\"translate(16,16)\" d=\"M -8 0 a 8 8 0 0 0  8 -8 a 8 8 0 0 0  8  8 a 8 8 0 0 0 -8  8 a 8 8 0 0 0 -8 -8\" fill=\"white\"/>\n        </symbol>\n\n\n        <marker id=\"marker1\" viewBox=\"0 0 16 16\" refX=\"8\" refY=\"8\" markerWidth=\"8\" markerHeight=\"8\" orient=\"auto\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"crimson\"></circle>\n        </marker>\n        <marker id=\"marker2\" viewBox=\"0 0 16 16\" refX=\"8\" refY=\"8\" markerWidth=\"16\" markerHeight=\"16\" orient=\"auto\">\n            <circle cx=\"8\" cy=\"8\" r=\"3\" fill=\"dodgerblue\"/>\n        </marker>\n        <marker id=\"marker3\" viewBox=\"0 0 16 16\" refX=\"8\" refY=\"8\" markerWidth=\"16\" markerHeight=\"16\" orient=\"auto\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"url(#hotcold1)\"/>\n            <path d=\"M13 8 l-7 4 v-8 z\" fill=\"white\"/>\n        </marker>\n\n\n    </defs>\n\n\n\n\n    <!-- LINEAR GRADIENT 1 -->\n    <g transform=\"translate(0,0)\">\n        <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"url(#hotcold1)\"/>\n    </g>\n\n    <!-- LINEAR GRADIENT 2 -->\n    <g transform=\"translate(128,0)\">\n        <rect x=\"0\" y=\"0\" width=\"128\" height=\"128\" fill=\"url(#hotcold2)\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"url(#hotcold2)\"/>\n    </g>\n\n    <!-- LINEAR GRADIENT 3 -->\n    <g transform=\"translate(256,0)\">\n        <circle cx=\"64\" cy=\"64\" r=\"32\" stroke=\"url(#hotcold3)\" stroke-width=\"16\" fill=\"none\"/>\n    </g>\n\n\n\n\n    <!-- RADIAL GRADIENT 1 -->\n    <g transform=\"translate(384,0)\">\n        <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"url(#hotcold4)\"/>\n    </g>\n\n    <!-- RADIAL GRADIENT 2 -->\n    <g transform=\"translate(0,128)\">\n        <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"url(#hotcold5)\"/>\n    </g>\n\n    <!-- RADIAL GRADIENT 3 -->\n    <g transform=\"translate(128,128)\">\n        <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"url(#hotcold6)\"/>\n    </g>\n\n\n\n\n    <!-- PATTERN 1 -->\n    <g transform=\"translate(256,128)\">\n        <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"url(#pattern1)\"/>\n    </g>\n\n    <!-- PATTERN 2 -->\n    <g transform=\"translate(384,128)\">\n        <rect x=\"0\" y=\"0\" width=\"128\" height=\"128\" fill=\"url(#hotcold2)\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"url(#pattern2)\"/>\n    </g>\n\n    <!-- PATTERN 3 -->\n    <g transform=\"translate(0,256)\">\n        <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"url(#pattern3)\"/>\n    </g>\n\n\n\n\n    <!-- MASK -->\n    <g transform=\"translate(128,256)\">\n        <mask id=\"themask\" maskContentUnits=\"objectBoundingBox\">\n            <rect width=\"100%\" height=\"100%\" fill=\"white\"/>\n            <path d=\"M0,0.5 a 0.5 0.5 0 0 0 0.5 -0.5 a 0.5 0.5 0 0 0 0.5 0.5 a 0.5 0.5 0 0 0 -0.5 0.5 a 0.5 0.5 0 0 0 -0.5 -0.5\" fill=\"black\"/>\n        </mask>\n        <rect width=\"128\" height=\"128\" fill=\"url(#hotcold1)\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"white\" mask=\"url(#themask)\"/>\n    </g>\n\n    <!-- CLIP PATH -->\n    <g transform=\"translate(256,256)\">\n        <clipPath id=\"leClip\" clipPathUnits=\"objectBoundingBox\">\n            <path d=\"M 0 0.5 a 0.5 0.5 0 0 0  0.5 -0.5 a 0.5 0.5 0 0 0  0.5  0.5 a 0.5 0.5 0 0 0 -0.5  0.5 a 0.5 0.5 0 0 0 -0.5 -0.5\"/>\n        </clipPath>\n        <rect width=\"128\" height=\"128\" fill=\"url(#hotcold1)\" fill-opacity=\"0.25\"/>\n        <g clip-path=\"url(#leClip)\">\n            <circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"url(#hotcold1)\"/>\n            <g fill=\"none\" stroke=\"white\" stroke-width=\"2\">\n                <circle cx=\"64\" cy=\"64\" r=\"20\"/>\n                <circle cx=\"64\" cy=\"64\" r=\"12\"/>\n                <circle cx=\"64\" cy=\"64\" r=\"4\"/>\n            </g>\n        </g>\n    </g>\n\n\n\n\n    <!-- SYMBOL / USE-->\n    <g transform=\"translate(384,256)\">\n\n        <!-- 1 -->\n        <use href=\"#unCercleSymbol\" x=\"48\" y=\"16\"/>\n        <!-- <use xlink:href=\"#unCercle\" x=\"64\" y=\"32\"/> -->\n\n        <!-- 2 -->\n        <use xlink:href=\"#unCercle\" x=\"48\" y=\"60\"/>\n        <use xlink:href=\"#unCercle\" x=\"80\" y=\"60\"/>\n\n        <!-- 3 -->\n        <use xlink:href=\"#unCercle\" x=\"32\" y=\"88\"/>\n        <use xlink:href=\"#unCercle\" x=\"64\" y=\"88\"/>\n        <use xlink:href=\"#unCercle\" x=\"96\" y=\"88\"/>\n\n    </g>\n\n\n\n\n    <!-- MARKER 1 -->\n    <g transform=\"translate(0,384)\">\n        <path d=\"M32 64 a32 32 0 0 0 32-32 a32 32 0 0 0 32 32 a32 32 0 0 0-32 32 a32 32 0 0 0-32-32z\" marker-mid=\"url(#marker1)\" fill=\"dodgerblue\"/>\n    </g>\n\n    <!-- MARKER 2 -->\n    <g transform=\"translate(128,384)\">\n        <path d=\"M96.00 64.00 L92.33 78.87 L82.18 90.34 L67.86 95.77 L52.65 93.92 L40.05 85.22 L32.93 71.66 L32.93 56.34 L40.05 42.78 L52.65 34.08 L67.86 32.23 L82.18 37.66 L92.33 49.13 z\" marker-mid=\"url(#marker2)\" marker-start=\"url(#marker2)\" fill=\"none\" stroke=\"dodgerblue\"/>\n    </g>\n\n    <!-- MARKER 3 -->\n    <g transform=\"translate(256,384)\">\n        <path d=\"M96.00 64.00 L92.33 78.87 L82.18 90.34 L67.86 95.77 L52.65 93.92 L40.05 85.22 L32.93 71.66 L32.93 56.34 L40.05 42.78 L52.65 34.08 L67.86 32.23 L82.18 37.66 L92.33 49.13\" marker-mid=\"url(#marker3)\" marker-start=\"url(#marker3)\" marker-end=\"url(#marker3)\" fill=\"none\"/>\n    </g>\n\n\n\n\n    <!-- ? -->\n    <g transform=\"translate(384,384)\"></g>\n\n\n</svg>",
+          "name" : "example 4 - Advanced",
+          "scope" : "editor",
+          "trigger" : "vg-x4",
+        },
+        {
+          "content" : "<!-- Svg Lines | Transform -->\n\n<svg\nxmlns:xlink=\"http://www.w3.org/1999/xlink\"\nxmlns=\"http://www.w3.org/2000/svg\"\nviewBox=\"0 0 384 384\"\nfill=\"none\"\nstroke=\"black\"\n>\n\n\n    <defs>\n\n        <pattern id=\"gridx128\" x=\"0\" y=\"0\" width=\"128\" height=\"128\" patternUnits=\"userSpaceOnUse\">\n            <rect x=\"0\" y=\"0\" width=\"128\" height=\"128\" stroke=\"dodgerblue\" stroke-width=\"0.5\"/>\n        </pattern>\n\n        <pattern id=\"gridx8\" x=\"0\" y=\"0\" width=\"8\" height=\"8\" patternUnits=\"userSpaceOnUse\">\n            <rect x=\"0\" y=\"0\" width=\"8\" height=\"8\" stroke=\"dodgerblue\" stroke-width=\"0.25\"/>\n        </pattern>\n\n    </defs>\n\n    <!-- G R I D -->\n    <rect x=\"0\" y=\"0\" width=\"384\" height=\"384\" stroke=\"none\" fill=\"url(#gridx8)\"/>\n    <rect x=\"0\" y=\"0\" width=\"384\" height=\"384\" stroke=\"none\" fill=\"url(#gridx128)\"/>\n\n\n\n\n    <!-- TRANSFORM TRANSLATE 1 -->\n    <g transform=\"translate(0,0)\">\n        <circle cx=\"64\" cy=\"64\" r=\"24\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"24\" transform=\"translate(-32, 0)\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"24\" transform=\"translate( 32, 0)\"/>\n    </g>\n\n    <!-- TRANSFORM TRANSLATE 2 -->\n    <g transform=\"translate(128,0)\">\n        <circle r=\"24\" transform=\"translate(64, 32)\"/>\n        <circle r=\"24\" transform=\"translate(64, 64)\"/>\n        <circle r=\"24\" transform=\"translate(64, 96)\"/>\n    </g>\n\n\n\n\n    <!-- TRANSFORM ROTATE 1 -->\n    <g transform=\"translate(256,0)\">\n        <rect x=\"40\" y=\"40\" width=\"48\" height=\"48\" stroke=\"#BBBBBB\"/>\n        <rect x=\"40\" y=\"40\" width=\"48\" height=\"48\" transform=\"rotate(22 0 0)\"/>\n    </g>\n\n    <!-- TRANSFORM ROTATE 2 -->\n    <g transform=\"translate(0,128)\">\n        <rect x=\"40\" y=\"40\" width=\"48\" height=\"48\" stroke=\"#BBBBBB\"/>\n        <rect x=\"40\" y=\"40\" width=\"48\" height=\"48\" transform=\"rotate(22 40 40)\"/>\n    </g>\n\n\n    <!-- TRANSFORM ROTATE 3 -->\n    <g transform=\"translate(128,128)\">\n        <rect x=\"40\" y=\"40\" width=\"48\" height=\"48\" stroke=\"#BBBBBB\"/>\n        <rect x=\"40\" y=\"40\" width=\"48\" height=\"48\" transform=\"rotate(22 64 64)\"/>\n    </g>\n\n\n\n\n\n    <!-- TRANSFORM TRANSLATE + ROTATE 1 -->\n    <g transform=\"translate(256,128)\">\n        <path d=\"M40 40 v16 a 16 16 0 1 1 16 -16 z\"/>\n        <path d=\"M88 40 v16 a 16 16 0 1 1 16 -16 z\" transform=\"rotate( 90 88 40)\"/>\n        <path d=\"M88 88 v16 a 16 16 0 1 1 16 -16 z\" transform=\"rotate(180 88 88)\"/>\n        <path d=\"M40 88 v16 a 16 16 0 1 1 16 -16 z\" transform=\"rotate(270 40 88)\"/>\n    </g>\n\n    <!-- TRANSFORM TRANSLATE + ROTATE 2 -->\n    <g transform=\"translate(0,256)\">\n        <path d=\"M 0 0 v 16 a 16 16 0 1 1 16 -16 z\"\n        transform=\"translate(40, 40) rotate(  0 0 0)\"/>\n        <path d=\"M 0 0 v 16 a 16 16 0 1 1 16 -16 z\"\n        transform=\"translate(88, 40) rotate( 90 0 0)\"/>\n        <path d=\"M 0 0 v 16 a 16 16 0 1 1 16 -16 z\"\n        transform=\"translate(88, 88) rotate(180 0 0)\"/>\n        <path d=\"M 0 0 v 16 a 16 16 0 1 1 16 -16 z\"\n        transform=\"translate(40, 88) rotate(270 0 0)\"/>\n    </g>\n\n\n\n\n    <!-- TRANSFORM SCALE 1 -->\n    <g transform=\"translate(128,256)\">\n        <circle cx=\"64\" cy=\"64\" r=\"24\" transform=\"scale(0.5, 0.5)\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"24\" transform=\"scale(0.75, 0.75)\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"24\" transform=\"scale(1, 1)\"/>\n        <circle cx=\"64\" cy=\"64\" r=\"24\" transform=\"scale(1.25, 1.25)\"/>\n    </g>\n\n    <!-- TRANSFORM SCALE 2 -->\n    <g transform=\"translate(256,256)\">\n        <circle r=\"32\" transform=\"translate(64,64) scale(0.5, 0.5)\"/>\n        <circle r=\"32\" transform=\"translate(64,64) scale(0.75, 0.75)\"/>\n        <circle r=\"32\" transform=\"translate(64,64) scale(1, 1)\"/>\n        <circle r=\"32\" transform=\"translate(64,64) scale(1.25, 1.25)\"/>\n    </g>\n\n\n\n\n</svg>",
+          "name" : "example 5 - Transform",
+          "scope" : "editor",
+          "trigger" : "vg-x5",
+        },
+        {
+          "content" : "<!-- Svg Lines | Animate -->\n\n<svg\nxmlns:xlink=\"http://www.w3.org/1999/xlink\"\nxmlns=\"http://www.w3.org/2000/svg\"\nviewBox=\"0 0 512 512\"\n>\n\n\n\n\n    <defs>\n\n        <pattern id=\"gridx8\" x=\"0\" y=\"0\" width=\"8\" height=\"8\" patternUnits=\"userSpaceOnUse\">\n            <rect x=\"0\" y=\"0\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.2\"/>\n        </pattern>\n        <pattern id=\"gridx32\" x=\"0\" y=\"0\" width=\"32\" height=\"32\" patternUnits=\"userSpaceOnUse\">\n            <rect x=\"0\" y=\"0\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"0.75\"/>\n        </pattern>\n\n    </defs>\n\n\n\n\n    <!-- G R I D -->\n    <rect x=\"0\" y=\"0\" width=\"512\" height=\"512\" fill=\"url(#gridx8)\"/>\n    <rect x=\"0\" y=\"0\" width=\"512\" height=\"512\" fill=\"url(#gridx32)\"/>\n\n\n\n\n    <!-- ANIMATE ATTRIBUTE 1 - CY -->\n    <g transform=\"translate(0,0)\">\n        <circle cx=\"64\" cy=\"32\" r=\"32\">\n            <animate attributeName=\"cy\" from=\"32\" to=\"96\" dur=\"3s\" repeatCount=\"indefinite\"/>\n        </circle>\n    </g>\n\n    <!-- ANIMATE ATTRIBUTE 2 - CY + KEYTIMES -->\n    <g transform=\"translate(128,0)\">\n        <circle cx=\"64\" cy=\"32\" r=\"32\">\n            <animate attributeName=\"cy\" values=\"32;64;96\" keyTimes=\"0;0.25;1\" dur=\"3s\" repeatCount=\"indefinite\"/>\n        </circle>\n    </g>\n\n    <!-- ANIMATE ATTRIBUTE 3 - CX -->\n    <g transform=\"translate(256,0)\">\n        <circle cx=\"64\" cy=\"64\" r=\"32\">\n            <animate attributeName=\"cx\" values=\"32; 96; 32\" dur=\"2s\" repeatCount=\"indefinite\"/>\n        </circle>\n    </g>\n\n    <!-- ANIMATE ATTRIBUTE 4 -CX + CY -->\n    <g transform=\"translate(384,0)\">\n        <circle cx=\"64\" cy=\"64\" r=\"32\">\n            <animate attributeName=\"cx\" values=\"32; 96; 32\" dur=\"7s\" repeatCount=\"indefinite\"/>\n            <animate attributeName=\"cy\" values=\"32; 96; 32\" dur=\"3s\" repeatCount=\"indefinite\"/>\n        </circle>\n    </g>\n\n    <!-- ANIMATE ATTRIBUTE 5 - R -->\n    <g transform=\"translate(0,128)\">\n        <circle cx=\"64\" cy=\"64\" r=\"32\">\n            <animate attributeName=\"r\" values=\"4; 80; 4\" dur=\"7s\" repeatCount=\"indefinite\"/>\n        </circle>\n    </g>\n\n    <!-- ANIMATE ATTRIBUTE 5 - R + KEYTIMES -->\n    <g transform=\"translate(128,128)\">\n        <circle cx=\"64\" cy=\"64\" r=\"32\">\n            <animate attributeName=\"r\" values=\"4; 80; 4\" keyTimes=\"0;0.75;1\" dur=\"7s\" repeatCount=\"indefinite\"/>\n        </circle>\n    </g>\n\n    <!-- ANIMATE ATTRIBUTE 6 - FILL -->\n    <g transform=\"translate(256,128)\">\n        <circle cx=\"64\" cy=\"64\" r=\"32\">\n            <animate attributeName=\"fill\" values=\"black; crimson; dodgerblue; black\" dur=\"4s\" repeatCount=\"indefinite\"/>\n        </circle>\n    </g>\n\n\n\n\n    <!-- ANIMATE TRANSFORM 1 - TRANSLATE -->\n    <g transform=\"translate(384,128)\">\n        <rect x=\"32\" y=\"32\" width=\"64\" height=\"64\">\n            <animateTransform attributeName=\"transform\" type=\"translate\" values=\"-32 0; 32 0; -32 0\" dur=\"4s\" repeatCount=\"indefinite\"/>\n        </rect>\n    </g>\n\n    <!-- ANIMATE TRANSFORM 1 - TRANSLATE + KEYTIMES -->\n    <g transform=\"translate(0,256)\">\n        <rect x=\"32\" y=\"32\" width=\"64\" height=\"64\">\n            <animateTransform attributeName=\"transform\" type=\"translate\" values=\"-32 0; 32 0; -32 0\" keyTimes=\"0;0.25;1\" dur=\"4s\" repeatCount=\"indefinite\"/>\n        </rect>\n    </g>\n\n    <!-- ANIMATE TRANSFORM 2 - ROTATE -->\n    <g transform=\"translate(128,256)\">\n        <rect x=\"32\" y=\"32\" width=\"64\" height=\"64\">\n            <animateTransform attributeName=\"transform\" type=\"rotate\" values=\"0 64 64; 360 64 64\" dur=\"7.2s\" repeatCount=\"indefinite\"/>\n        </rect>\n    </g>\n\n    <!-- ANIMATE TRANSFORM 3 - SCALE -->\n    <g transform=\"translate(256,256)\">\n        <rect x=\"32\" y=\"32\" width=\"64\" height=\"64\">\n            <animateTransform attributeName=\"transform\" type=\"scale\" values=\"1 1; 1 1; 1.5 1.5; 1 1; 1 1; 0.5 0.5; 1 1\" dur=\"4s\" repeatCount=\"indefinite\"/>\n        </rect>\n    </g>\n\n    <!-- ANIMATE TRANSFORM 4 - SCALE -->\n    <g transform=\"translate(384,256)\">\n        <rect x=\"-32\" y=\"-32\" width=\"64\" height=\"64\" transform=\"translate(64,64)\">\n            <animateTransform attributeName=\"transform\" type=\"scale\" additive=\"sum\" values=\"1 1; 1 1; 1.5 1.5; 1 1; 1 1; 0.5 0.5; 1 1\" dur=\"4s\" repeatCount=\"indefinite\"/>\n        </rect>\n    </g>\n\n\n\n\n    <!-- ANIMATE MOTION 1 -->\n    <g transform=\"translate(0,384)\">\n        <path id=\"circuit\" d=\"M64 32 h24 a 8 8 0 0 1 8 8 v40 a 16 16 0 0 1 -16 16 a 8 8 0 0 1 -8 -8 v-24 a 16 16 0 0 0 -32 0 a 16 16 0 0 0 16 16 a 8 8 0 0 1 0 16 h-8 a16 16 0 0 1 -16 -16 v-16 a 32 32 0 0 1 32 -32z\" fill=\"none\" stroke=\"dodgerblue\"/>\n        <polygon points=\"-10,-6 10,0 -10,6\">\n            <animateMotion dur=\"7.2s\" repeatCount=\"indefinite\" rotate=\"0\">\n                <mpath href=\"#circuit\"/>\n            </animateMotion>\n        </polygon>\n    </g>\n\n    <!-- ANIMATE MOTION 2 -->\n    <g transform=\"translate(128,384)\">\n        <use xlink:href=\"#circuit\"/>\n        <polygon points=\"-10,-6 10,0 -10,6\">\n            <animateMotion dur=\"7.2s\" repeatCount=\"indefinite\" rotate=\"auto\">\n                <mpath href=\"#circuit\"/>\n            </animateMotion>\n        </polygon>\n    </g>\n\n    <!-- ANIMATE MOTION 3 -->\n    <g transform=\"translate(256,384)\">\n        <use xlink:href=\"#circuit\"/>\n        <polygon points=\"-10,-6 10,0 -10,6\">\n            <animateMotion dur=\"7.2s\" repeatCount=\"indefinite\" rotate=\"auto\" keyTimes=\"0;0.75;1\" keyPoints=\"0;0.5;1\" calcMode=\"linear\">\n                <mpath href=\"#circuit\"/>\n            </animateMotion>\n        </polygon>\n    </g>\n\n    <!-- ANIMATE MOTION 3 -->\n    <g transform=\"translate(384,384)\">\n        <use xlink:href=\"#circuit\"/>\n        <polygon points=\"-10,-6 10,0 -10,6\">\n            <animateMotion dur=\"7.2s\" repeatCount=\"indefinite\" rotate=\"auto\" keyTimes=\"0;0.25;1\" keyPoints=\"0;0.5;1\" calcMode=\"linear\">\n                <mpath href=\"#circuit\"/>\n            </animateMotion>\n        </polygon>\n    </g>\n\n\n\n\n</svg>",
+          "name" : "example 6 - Animate",
+          "scope" : "editor",
+          "syntax" : "xml",
+          "trigger" : "vg-x6",
+        },
+      ]
+    },
+  ]
+}

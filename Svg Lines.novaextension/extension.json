@@ -1,0 +1,13 @@
+{
+    "identifier": "servovalve.SvgLines",
+    "name": "Svg Lines",
+    "organization": "Servovalve",
+    "vendor": "Gregory Pignot",
+    "description": "Collection of SVG Clips",
+    "version": "1.0",
+    "homepage": "https://www.servovalve.org/nova/",
+    "bugs": "https://github.com/serge-oswald/SVG-Lines/issues",
+    "categories": ["clips"],
+    "keywords": ["html", "xml", "svg"],
+    "funding": "https://paypal.me/gregorypignot/3EUR/",
+}
