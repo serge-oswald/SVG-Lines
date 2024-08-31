@@ -243,40 +243,49 @@
 
 ## Content
 
-<div class="contentgrid">
-  <div>
-	<img src="https://www.servovalve.org/nova/img/cnt0.svg">
-	<p><span id="clipCount">89 clips</span><small><em id="eltCount">40</em>&nbsp;elements, <em id="atrCount">42</em>&nbsp;attributes, <em id="xmpCount">7</em>&nbsp;examples, organized in 7&nbsp;folders.</small></p>
-  </div>
-  <div>
-	  <img src="https://www.servovalve.org/nova/img/cnt1.svg">
-	  <p><span>Structure <sup>16 clips</sup></span><small>Svg header for file or inline html, structural elements.</small></p>
-  </div>
-  <div>
-	  <img src="https://www.servovalve.org/nova/img/cnt2.svg">
-	  <p><span>Shapes <sup>12 clips</sup></span><small>Primitives shapes, text, images.</small></p>
-  </div>
-  <div>
-	  <img src="https://www.servovalve.org/nova/img/cnt3.svg">
-	  <p><span>Styling <sup>12 clips</sup></span><small>Coloring, stroking, dashing, dotting.</small></p>
-  </div>
-  <div>
-	  <img src="https://www.servovalve.org/nova/img/cnt4.svg">
-	  <p><span>Transform <sup>5 clips</sup></span><small>Translation, rotation, scale, skew.</small></p>
-  </div>
-  <div>
-	  <img src="https://www.servovalve.org/nova/img/cnt5.svg">
-	  <p><span>Advanced <sup>23 clips</sup></span><small>Deeper styling with gradient, pattern, mask.</small></p>
-  </div>
-  <div>
-	  <img src="https://www.servovalve.org/nova/img/cnt6.svg">
-	  <p><span>Animate <sup>14 clips</sup></span><small>Animate attribute, transformation, or motion.</small></p>
-  </div>
-  <div>
-	  <img src="https://www.servovalve.org/nova/img/cnt7.svg">
-	  <p><span>Examples <sup>7 clips</sup></span><small>Samples ans starting lines.</small></p>
-  </div>
-</div>
+
+<ul class="contentgrid">
+	<li>
+		<img src="https://www.servovalve.org/nova/img/cnt0.svg">
+		<h4><span id="clipCount">89 clips</span></h4>
+		<p><span id="eltCount">40</span>&nbsp;elements, <span id="atrCount">42</span>&nbsp;attributes, <span id="xmpCount">7</span>&nbsp;examples, organized in 7&nbsp;folders.</p>
+	</li>
+	<li>
+		<img src="https://www.servovalve.org/nova/img/cnt1.svg">
+		<h4>Structure <sup>16 clips</sup></h4>
+		<p>Svg header for file or inline html, structural elements.</p>
+	</li>
+	<li>
+		<img src="https://www.servovalve.org/nova/img/cnt2.svg">
+		<h4>Shapes <sup>12 clips</sup></h4>
+		<p>Primitives shapes, text, images.</p>
+	</li>
+	<li>
+		<img src="https://www.servovalve.org/nova/img/cnt3.svg">
+		<h4>Styling <sup>12 clips</sup></h4>
+		<p>Coloring, stroking, dashing, dotting.</p>
+	</li>
+	<li>
+		<img src="https://www.servovalve.org/nova/img/cnt4.svg">
+		<h4>Transform <sup>5 clips</sup></h4>
+		<p>Translation, rotation, scale, skew.</p>
+	</li>
+	<li>
+		<img src="https://www.servovalve.org/nova/img/cnt5.svg">
+		<h4>Advanced <sup>23 clips</sup></h4>
+		<p>Deeper styling with gradient, pattern, mask.</p>
+	</li>
+	<li>
+		<img src="https://www.servovalve.org/nova/img/cnt6.svg">
+		<h4>Animate <sup>14 clips</sup></h4>
+		<p>Animate attribute, transformation, or motion.</p>
+	</li>
+	<li>
+		<img src="https://www.servovalve.org/nova/img/cnt7.svg">
+		<h4>Examples <sup>7 clips</sup></h4>
+		<p>Samples ans starting lines.</p>
+	</li>
+</ul>
 
 
 
