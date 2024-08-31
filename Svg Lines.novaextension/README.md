@@ -223,7 +223,7 @@
 
 # SVG Lines
 
-<div class="headergrid" style="border:8px solid red;">
+<div class="headergrid">
   <div>
 	  <p id="headerBaseline">A set of svg clips for your favorite editor, enabling you to play with Scalable Vector Graphics</p>
   </div>
