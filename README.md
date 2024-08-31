@@ -28,10 +28,6 @@
 | `7   ` | ![icon](https://www.servovalve.org/nova/img/cnt7.svg) | **EXAMPLES** | Samples ans starting lines. | `7 clips` |
 | `→   ` | ![icon](https://www.servovalve.org/nova/img/cnt0.svg) | **7** folders | **40** elements, **42** attributes, **7** examples. | `89 clips` |
 
-The search for svg in nova extensions yielded no results, so I organized my svg clips somewhat after learning about the possibility of making my own extensions.
-
-The organization of the folders corresponds to the structure of the [course](https://www.servovalve.org/codesign_svg/) I share with my students.
- 
  
  
  
