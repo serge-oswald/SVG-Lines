@@ -8,18 +8,6 @@
 	hr { margin: 96px 0 48px 0; border-radius: 3px}
 	p { letter-spacing: 0.05em; font-size: 16px; }
 	
-	
-	
-	/* body {  font-family: sans-serif; } */
-	/* h1 { margin-bottom: 0; } */
-	/* h2 { margin: 0; padding: 0 0 16px 0; } */
-	/* hr { margin: 96px 0 48px 0; border-radius: 3px; opacity: 0.5} */
-	/* p { letter-spacing: 0.05em; font-size: 16px; } */
-	/* a { text-underline-offset: 5px;} */
-	
-	
-	
-	
 	@media (prefers-color-scheme: light) {
 	  body { background-color: whitesmoke; color: black; }
 	  p { color: #666; }
@@ -235,7 +223,7 @@
 
 # SVG Lines
 
-<div class="headergrid" style="display: grid; grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(4, 1fr);">
+<div class="headergrid" style="border:8px solid red;">
   <div>
 	  <p id="headerBaseline">A set of svg clips for your favorite editor, enabling you to play with Scalable Vector Graphics</p>
   </div>
