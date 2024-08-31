@@ -235,7 +235,7 @@
 
 # SVG Lines
 
-<div class="headergrid">
+<div class="headergrid" style="display: grid; grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(4, 1fr);">
   <div>
 	  <p id="headerBaseline">A set of svg clips for your favorite editor, enabling you to play with Scalable Vector Graphics</p>
   </div>
